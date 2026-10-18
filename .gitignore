@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+# price data: the course exports (finanzen.net) are not redistributed; fetch public data with scripts/fetch_data.py
+data/
+# LaTeX build files
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.out
+report/*.toc

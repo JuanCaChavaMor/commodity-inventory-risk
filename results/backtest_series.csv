@@ -1,0 +1,1057 @@
+,date,VaR,loss,exception
+parametric (delta-normal)|0.95,2023-05-05,11628354,12707603,True
+parametric (delta-normal)|0.95,2023-05-09,11543580,-12373656,False
+parametric (delta-normal)|0.95,2023-05-10,10966929,8496943,False
+parametric (delta-normal)|0.95,2023-05-11,10877637,20759165,True
+parametric (delta-normal)|0.95,2023-05-12,10894547,5593114,False
+parametric (delta-normal)|0.95,2023-05-15,10813949,-5726885,False
+parametric (delta-normal)|0.95,2023-05-16,10960247,10132340,False
+parametric (delta-normal)|0.95,2023-05-17,10882123,-4833867,False
+parametric (delta-normal)|0.95,2023-05-18,10960967,-164607,False
+parametric (delta-normal)|0.95,2023-05-19,10897055,-4219392,False
+parametric (delta-normal)|0.95,2023-05-22,10964446,6610743,False
+parametric (delta-normal)|0.95,2023-05-23,10766098,3312016,False
+parametric (delta-normal)|0.95,2023-05-24,10706268,8561269,False
+parametric (delta-normal)|0.95,2023-05-25,10639660,2910380,False
+parametric (delta-normal)|0.95,2023-05-26,10564538,-13827388,False
+parametric (delta-normal)|0.95,2023-05-30,10991054,-42609,False
+parametric (delta-normal)|0.95,2023-05-31,10978324,-2782708,False
+parametric (delta-normal)|0.95,2023-06-01,11053619,-9212591,False
+parametric (delta-normal)|0.95,2023-06-02,11170999,-2021592,False
+parametric (delta-normal)|0.95,2023-06-05,11112950,1695841,False
+parametric (delta-normal)|0.95,2023-06-06,10818180,-2486355,False
+parametric (delta-normal)|0.95,2023-06-07,10854162,381465,False
+parametric (delta-normal)|0.95,2023-06-08,10735455,-2425752,False
+parametric (delta-normal)|0.95,2023-06-09,10803715,-6187130,False
+parametric (delta-normal)|0.95,2023-06-12,10907077,5773431,False
+parametric (delta-normal)|0.95,2023-06-13,10830180,2583303,False
+parametric (delta-normal)|0.95,2023-06-14,10644113,-4236507,False
+parametric (delta-normal)|0.95,2023-06-15,10692346,8876253,False
+parametric (delta-normal)|0.95,2023-06-16,10601593,-5583767,False
+parametric (delta-normal)|0.95,2023-06-19,10727888,522731,False
+parametric (delta-normal)|0.95,2023-06-20,10710397,10526196,False
+parametric (delta-normal)|0.95,2023-06-21,10510553,10008109,False
+parametric (delta-normal)|0.95,2023-06-22,10413597,2048712,False
+parametric (delta-normal)|0.95,2023-06-23,10332233,2994457,False
+parametric (delta-normal)|0.95,2023-06-26,9921544,-5162975,False
+parametric (delta-normal)|0.95,2023-06-27,10056266,4106871,False
+parametric (delta-normal)|0.95,2023-06-28,9977276,3217683,False
+parametric (delta-normal)|0.95,2023-06-29,9937845,3520379,False
+parametric (delta-normal)|0.95,2023-06-30,9884672,-1089372,False
+parametric (delta-normal)|0.95,2023-07-03,9906449,-7840778,False
+parametric (delta-normal)|0.95,2023-07-04,10083504,-2828815,False
+parametric (delta-normal)|0.95,2023-07-05,10012153,-168980,False
+parametric (delta-normal)|0.95,2023-07-06,9830609,6113455,False
+parametric (delta-normal)|0.95,2023-07-07,9724016,11946,False
+parametric (delta-normal)|0.95,2023-07-10,9737298,850884,False
+parametric (delta-normal)|0.95,2023-07-11,9698208,-2474081,False
+parametric (delta-normal)|0.95,2023-07-12,9729344,-7718600,False
+parametric (delta-normal)|0.95,2023-07-13,9965280,-12703321,False
+parametric (delta-normal)|0.95,2023-07-14,10338241,-1798260,False
+parametric (delta-normal)|0.95,2023-07-17,10274340,6986549,False
+parametric (delta-normal)|0.95,2023-07-18,10224453,-1663876,False
+parametric (delta-normal)|0.95,2023-07-19,10251664,-876923,False
+parametric (delta-normal)|0.95,2023-07-20,10268243,-4795696,False
+parametric (delta-normal)|0.95,2023-07-21,10278682,6842007,False
+parametric (delta-normal)|0.95,2023-07-24,10227622,-1471464,False
+parametric (delta-normal)|0.95,2023-07-25,10216042,-11163205,False
+parametric (delta-normal)|0.95,2023-07-26,10512590,1052323,False
+parametric (delta-normal)|0.95,2023-07-27,10520545,3360166,False
+parametric (delta-normal)|0.95,2023-07-28,10412707,-1521169,False
+parametric (delta-normal)|0.95,2023-07-31,10448185,-14865436,False
+parametric (delta-normal)|0.95,2023-08-01,10898714,10335934,False
+parametric (delta-normal)|0.95,2023-08-02,10805785,10231996,False
+parametric (delta-normal)|0.95,2023-08-03,10738625,2352554,False
+parametric (delta-normal)|0.95,2023-08-04,10672185,8341248,False
+parametric (delta-normal)|0.95,2023-08-07,10487552,3752348,False
+parametric (delta-normal)|0.95,2023-08-08,10403809,10870483,True
+parametric (delta-normal)|0.95,2023-08-09,10352153,-1706230,False
+parametric (delta-normal)|0.95,2023-08-10,10283143,-1018371,False
+parametric (delta-normal)|0.95,2023-08-11,10229835,5842865,False
+parametric (delta-normal)|0.95,2023-08-14,10189021,-2541012,False
+parametric (delta-normal)|0.95,2023-08-15,10224823,5672997,False
+parametric (delta-normal)|0.95,2023-08-16,10173612,217616,False
+parametric (delta-normal)|0.95,2023-08-17,10153167,-7843999,False
+parametric (delta-normal)|0.95,2023-08-18,10348710,725162,False
+parametric (delta-normal)|0.95,2023-08-21,10333968,-10207527,False
+parametric (delta-normal)|0.95,2023-08-22,10585976,-7030824,False
+parametric (delta-normal)|0.95,2023-08-23,10691378,-16303741,False
+parametric (delta-normal)|0.95,2023-08-24,11260630,2397959,False
+parametric (delta-normal)|0.95,2023-08-25,11206420,-2920891,False
+parametric (delta-normal)|0.95,2023-08-29,11017654,-2373721,False
+parametric (delta-normal)|0.95,2023-08-30,11029987,1398063,False
+parametric (delta-normal)|0.95,2023-08-31,10892012,978013,False
+parametric (delta-normal)|0.95,2023-09-01,10867910,-5265323,False
+parametric (delta-normal)|0.95,2023-09-05,10923714,9109895,False
+parametric (delta-normal)|0.95,2023-09-06,10820190,6239249,False
+parametric (delta-normal)|0.95,2023-09-07,10632854,7743614,False
+parametric (delta-normal)|0.95,2023-09-08,10526065,1423715,False
+parametric (delta-normal)|0.95,2023-09-11,10501758,-3428905,False
+parametric (delta-normal)|0.95,2023-09-12,10559939,-152459,False
+parametric (delta-normal)|0.95,2023-09-13,10562504,1634552,False
+parametric (delta-normal)|0.95,2023-09-14,10380801,-4885557,False
+parametric (delta-normal)|0.95,2023-09-15,10449261,-1833301,False
+parametric (delta-normal)|0.95,2023-09-18,10503126,372874,False
+parametric (delta-normal)|0.95,2023-09-19,10501357,1157903,False
+parametric (delta-normal)|0.95,2023-09-20,10425292,-2210906,False
+parametric (delta-normal)|0.95,2023-09-21,10432751,3135718,False
+parametric (delta-normal)|0.95,2023-09-22,10407257,-3898549,False
+parametric (delta-normal)|0.95,2023-09-25,10433653,4650125,False
+parametric (delta-normal)|0.95,2023-09-26,10344103,5568089,False
+parametric (delta-normal)|0.95,2023-09-27,10227073,133358,False
+parametric (delta-normal)|0.95,2023-09-28,10176520,379789,False
+parametric (delta-normal)|0.95,2023-09-29,10164498,3406369,False
+parametric (delta-normal)|0.95,2023-10-02,10054962,15095599,True
+parametric (delta-normal)|0.95,2023-10-03,10008432,3396857,False
+parametric (delta-normal)|0.95,2023-10-04,9982365,6997895,False
+parametric (delta-normal)|0.95,2023-10-05,9905110,7282783,False
+parametric (delta-normal)|0.95,2023-10-06,9709975,-10229471,False
+parametric (delta-normal)|0.95,2023-10-09,10012872,-11648186,False
+parametric (delta-normal)|0.95,2023-10-10,10352769,7686941,False
+parametric (delta-normal)|0.95,2023-10-11,10288791,-4103092,False
+parametric (delta-normal)|0.95,2023-10-12,10383896,-4056963,False
+parametric (delta-normal)|0.95,2023-10-13,10378470,-9812698,False
+parametric (delta-normal)|0.95,2023-10-16,10647112,2792428,False
+parametric (delta-normal)|0.95,2023-10-17,10571852,352209,False
+parametric (delta-normal)|0.95,2023-10-18,10588611,-5079414,False
+parametric (delta-normal)|0.95,2023-10-19,10691406,-823843,False
+parametric (delta-normal)|0.95,2023-10-20,10711227,-1408460,False
+parametric (delta-normal)|0.95,2023-10-23,10615883,8693094,False
+parametric (delta-normal)|0.95,2023-10-24,10523148,-3959596,False
+parametric (delta-normal)|0.95,2023-10-25,10588200,-2578122,False
+parametric (delta-normal)|0.95,2023-10-26,10599204,799979,False
+parametric (delta-normal)|0.95,2023-10-27,10584122,-5463613,False
+parametric (delta-normal)|0.95,2023-10-30,10717569,-4485237,False
+parametric (delta-normal)|0.95,2023-10-31,10698819,7276106,False
+parametric (delta-normal)|0.95,2023-11-01,10618409,-2034477,False
+parametric (delta-normal)|0.95,2023-11-02,10576640,5319988,False
+parametric (delta-normal)|0.95,2023-11-03,10358076,-480474,False
+parametric (delta-normal)|0.95,2023-11-06,10233806,-2916617,False
+parametric (delta-normal)|0.95,2023-11-07,10214435,10088702,False
+parametric (delta-normal)|0.95,2023-11-08,9726159,-902528,False
+parametric (delta-normal)|0.95,2023-11-09,9709124,-5824927,False
+parametric (delta-normal)|0.95,2023-11-10,9824993,13597606,True
+historical simulation|0.95,2023-05-05,10913525,12707603,True
+historical simulation|0.95,2023-05-09,10679086,-12373656,False
+historical simulation|0.95,2023-05-10,10849009,8496943,False
+historical simulation|0.95,2023-05-11,10734505,20759165,True
+historical simulation|0.95,2023-05-12,11987190,5593114,False
+historical simulation|0.95,2023-05-15,11832000,-5726885,False
+historical simulation|0.95,2023-05-16,11992976,10132340,False
+historical simulation|0.95,2023-05-17,11809519,-4833867,False
+historical simulation|0.95,2023-05-18,11844128,-164607,False
+historical simulation|0.95,2023-05-19,11775268,-4219392,False
+historical simulation|0.95,2023-05-22,11916220,6610743,False
+historical simulation|0.95,2023-05-23,10213609,3312016,False
+historical simulation|0.95,2023-05-24,10154133,8561269,False
+historical simulation|0.95,2023-05-25,10022984,2910380,False
+historical simulation|0.95,2023-05-26,9942424,-13827388,False
+historical simulation|0.95,2023-05-30,10162632,-42609,False
+historical simulation|0.95,2023-05-31,10142178,-2782708,False
+historical simulation|0.95,2023-06-01,10246825,-9212591,False
+historical simulation|0.95,2023-06-02,10267456,-2021592,False
+historical simulation|0.95,2023-06-05,10322334,1695841,False
+historical simulation|0.95,2023-06-06,10288904,-2486355,False
+historical simulation|0.95,2023-06-07,10332360,381465,False
+historical simulation|0.95,2023-06-08,10334693,-2425752,False
+historical simulation|0.95,2023-06-09,10351719,-6187130,False
+historical simulation|0.95,2023-06-12,10441956,5773431,False
+historical simulation|0.95,2023-06-13,10351606,2583303,False
+historical simulation|0.95,2023-06-14,10337435,-4236507,False
+historical simulation|0.95,2023-06-15,10403544,8876253,False
+historical simulation|0.95,2023-06-16,10265070,-5583767,False
+historical simulation|0.95,2023-06-19,10349260,522731,False
+historical simulation|0.95,2023-06-20,10347117,10526196,True
+historical simulation|0.95,2023-06-21,10211142,10008109,False
+historical simulation|0.95,2023-06-22,10078027,2048712,False
+historical simulation|0.95,2023-06-23,10066130,2994457,False
+historical simulation|0.95,2023-06-26,9996814,-5162975,False
+historical simulation|0.95,2023-06-27,10059407,4106871,False
+historical simulation|0.95,2023-06-28,10009485,3217683,False
+historical simulation|0.95,2023-06-29,9985345,3520379,False
+historical simulation|0.95,2023-06-30,9956576,-1089372,False
+historical simulation|0.95,2023-07-03,9986918,-7840778,False
+historical simulation|0.95,2023-07-04,10048770,-2828815,False
+historical simulation|0.95,2023-07-05,10116163,-168980,False
+historical simulation|0.95,2023-07-06,10047053,6113455,False
+historical simulation|0.95,2023-07-07,9967147,11946,False
+historical simulation|0.95,2023-07-10,9958093,850884,False
+historical simulation|0.95,2023-07-11,9941637,-2474081,False
+historical simulation|0.95,2023-07-12,9988529,-7718600,False
+historical simulation|0.95,2023-07-13,10211973,-12703321,False
+historical simulation|0.95,2023-07-14,10428532,-1798260,False
+historical simulation|0.95,2023-07-17,10433636,6986549,False
+historical simulation|0.95,2023-07-18,10409506,-1663876,False
+historical simulation|0.95,2023-07-19,10510464,-876923,False
+historical simulation|0.95,2023-07-20,10569588,-4795696,False
+historical simulation|0.95,2023-07-21,10464402,6842007,False
+historical simulation|0.95,2023-07-24,10390397,-1471464,False
+historical simulation|0.95,2023-07-25,10371728,-11163205,False
+historical simulation|0.95,2023-07-26,10516500,1052323,False
+historical simulation|0.95,2023-07-27,10574374,3360166,False
+historical simulation|0.95,2023-07-28,10346543,-1521169,False
+historical simulation|0.95,2023-07-31,10403012,-14865436,False
+historical simulation|0.95,2023-08-01,10605566,10335934,False
+historical simulation|0.95,2023-08-02,10447010,10231996,False
+historical simulation|0.95,2023-08-03,10290546,2352554,False
+historical simulation|0.95,2023-08-04,10263050,8341248,False
+historical simulation|0.95,2023-08-07,10085819,3752348,False
+historical simulation|0.95,2023-08-08,9968948,10870483,True
+historical simulation|0.95,2023-08-09,9905239,-1706230,False
+historical simulation|0.95,2023-08-10,9891041,-1018371,False
+historical simulation|0.95,2023-08-11,9892739,5842865,False
+historical simulation|0.95,2023-08-14,9856482,-2541012,False
+historical simulation|0.95,2023-08-15,9898114,5672997,False
+historical simulation|0.95,2023-08-16,9802347,217616,False
+historical simulation|0.95,2023-08-17,9803549,-7843999,False
+historical simulation|0.95,2023-08-18,9921536,725162,False
+historical simulation|0.95,2023-08-21,9911145,-10207527,False
+historical simulation|0.95,2023-08-22,10092311,-7030824,False
+historical simulation|0.95,2023-08-23,10166625,-16303741,False
+historical simulation|0.95,2023-08-24,10545100,2397959,False
+historical simulation|0.95,2023-08-25,10507315,-2920891,False
+historical simulation|0.95,2023-08-29,10405360,-2373721,False
+historical simulation|0.95,2023-08-30,10423482,1398063,False
+historical simulation|0.95,2023-08-31,10411539,978013,False
+historical simulation|0.95,2023-09-01,10394935,-5265323,False
+historical simulation|0.95,2023-09-05,10501043,9109895,False
+historical simulation|0.95,2023-09-06,10332418,6239249,False
+historical simulation|0.95,2023-09-07,10177367,7743614,False
+historical simulation|0.95,2023-09-08,10056120,1423715,False
+historical simulation|0.95,2023-09-11,10034067,-3428905,False
+historical simulation|0.95,2023-09-12,10088321,-152459,False
+historical simulation|0.95,2023-09-13,10090495,1634552,False
+historical simulation|0.95,2023-09-14,10030016,-4885557,False
+historical simulation|0.95,2023-09-15,10025608,-1833301,False
+historical simulation|0.95,2023-09-18,10152459,372874,False
+historical simulation|0.95,2023-09-19,10160417,1157903,False
+historical simulation|0.95,2023-09-20,10140070,-2210906,False
+historical simulation|0.95,2023-09-21,10175772,3135718,False
+historical simulation|0.95,2023-09-22,10121380,-3898549,False
+historical simulation|0.95,2023-09-25,10180713,4650125,False
+historical simulation|0.95,2023-09-26,10112009,5568089,False
+historical simulation|0.95,2023-09-27,10026990,133358,False
+historical simulation|0.95,2023-09-28,10029458,379789,False
+historical simulation|0.95,2023-09-29,10024459,3406369,False
+historical simulation|0.95,2023-10-02,9870131,15095599,True
+historical simulation|0.95,2023-10-03,9608488,3396857,False
+historical simulation|0.95,2023-10-04,9670118,6997895,False
+historical simulation|0.95,2023-10-05,9549936,7282783,False
+historical simulation|0.95,2023-10-06,9477132,-10229471,False
+historical simulation|0.95,2023-10-09,9629831,-11648186,False
+historical simulation|0.95,2023-10-10,9809143,7686941,False
+historical simulation|0.95,2023-10-11,9693859,-4103092,False
+historical simulation|0.95,2023-10-12,9785467,-4056963,False
+historical simulation|0.95,2023-10-13,9816467,-9812698,False
+historical simulation|0.95,2023-10-16,10170544,2792428,False
+historical simulation|0.95,2023-10-17,10079928,352209,False
+historical simulation|0.95,2023-10-18,10161824,-5079414,False
+historical simulation|0.95,2023-10-19,10218169,-823843,False
+historical simulation|0.95,2023-10-20,10249600,-1408460,False
+historical simulation|0.95,2023-10-23,10011109,8693094,False
+historical simulation|0.95,2023-10-24,9882156,-3959596,False
+historical simulation|0.95,2023-10-25,9943582,-2578122,False
+historical simulation|0.95,2023-10-26,9985122,799979,False
+historical simulation|0.95,2023-10-27,9973266,-5463613,False
+historical simulation|0.95,2023-10-30,10054659,-4485237,False
+historical simulation|0.95,2023-10-31,10126755,7276106,False
+historical simulation|0.95,2023-11-01,10017504,-2034477,False
+historical simulation|0.95,2023-11-02,10047017,5319988,False
+historical simulation|0.95,2023-11-03,9869274,-480474,False
+historical simulation|0.95,2023-11-06,9886998,-2916617,False
+historical simulation|0.95,2023-11-07,9927077,10088702,True
+historical simulation|0.95,2023-11-08,9764514,-902528,False
+historical simulation|0.95,2023-11-09,9778120,-5824927,False
+historical simulation|0.95,2023-11-10,9878776,13597606,True
+"Monte Carlo, normal|0.95",2023-05-05,11517378,12707603,True
+"Monte Carlo, normal|0.95",2023-05-09,11428541,-12373656,False
+"Monte Carlo, normal|0.95",2023-05-10,10931237,8496943,False
+"Monte Carlo, normal|0.95",2023-05-11,10834023,20759165,True
+"Monte Carlo, normal|0.95",2023-05-12,10830982,5593114,False
+"Monte Carlo, normal|0.95",2023-05-15,10754135,-5726885,False
+"Monte Carlo, normal|0.95",2023-05-16,10867098,10132340,False
+"Monte Carlo, normal|0.95",2023-05-17,10777711,-4833867,False
+"Monte Carlo, normal|0.95",2023-05-18,10842613,-164607,False
+"Monte Carlo, normal|0.95",2023-05-19,10784165,-4219392,False
+"Monte Carlo, normal|0.95",2023-05-22,10853045,6610743,False
+"Monte Carlo, normal|0.95",2023-05-23,10660726,3312016,False
+"Monte Carlo, normal|0.95",2023-05-24,10601339,8561269,False
+"Monte Carlo, normal|0.95",2023-05-25,10539056,2910380,False
+"Monte Carlo, normal|0.95",2023-05-26,10468578,-13827388,False
+"Monte Carlo, normal|0.95",2023-05-30,10918292,-42609,False
+"Monte Carlo, normal|0.95",2023-05-31,10899164,-2782708,False
+"Monte Carlo, normal|0.95",2023-06-01,10961146,-9212591,False
+"Monte Carlo, normal|0.95",2023-06-02,11084227,-2021592,False
+"Monte Carlo, normal|0.95",2023-06-05,10998318,1695841,False
+"Monte Carlo, normal|0.95",2023-06-06,10727358,-2486355,False
+"Monte Carlo, normal|0.95",2023-06-07,10762495,381465,False
+"Monte Carlo, normal|0.95",2023-06-08,10645305,-2425752,False
+"Monte Carlo, normal|0.95",2023-06-09,10718042,-6187130,False
+"Monte Carlo, normal|0.95",2023-06-12,10819452,5773431,False
+"Monte Carlo, normal|0.95",2023-06-13,10739833,2583303,False
+"Monte Carlo, normal|0.95",2023-06-14,10582732,-4236507,False
+"Monte Carlo, normal|0.95",2023-06-15,10622051,8876253,False
+"Monte Carlo, normal|0.95",2023-06-16,10553778,-5583767,False
+"Monte Carlo, normal|0.95",2023-06-19,10675513,522731,False
+"Monte Carlo, normal|0.95",2023-06-20,10643287,10526196,False
+"Monte Carlo, normal|0.95",2023-06-21,10472035,10008109,False
+"Monte Carlo, normal|0.95",2023-06-22,10369121,2048712,False
+"Monte Carlo, normal|0.95",2023-06-23,10255774,2994457,False
+"Monte Carlo, normal|0.95",2023-06-26,9831710,-5162975,False
+"Monte Carlo, normal|0.95",2023-06-27,9981042,4106871,False
+"Monte Carlo, normal|0.95",2023-06-28,9916155,3217683,False
+"Monte Carlo, normal|0.95",2023-06-29,9871174,3520379,False
+"Monte Carlo, normal|0.95",2023-06-30,9820447,-1089372,False
+"Monte Carlo, normal|0.95",2023-07-03,9852709,-7840778,False
+"Monte Carlo, normal|0.95",2023-07-04,10026142,-2828815,False
+"Monte Carlo, normal|0.95",2023-07-05,9955183,-168980,False
+"Monte Carlo, normal|0.95",2023-07-06,9802092,6113455,False
+"Monte Carlo, normal|0.95",2023-07-07,9680439,11946,False
+"Monte Carlo, normal|0.95",2023-07-10,9673673,850884,False
+"Monte Carlo, normal|0.95",2023-07-11,9636537,-2474081,False
+"Monte Carlo, normal|0.95",2023-07-12,9663068,-7718600,False
+"Monte Carlo, normal|0.95",2023-07-13,9907603,-12703321,False
+"Monte Carlo, normal|0.95",2023-07-14,10252055,-1798260,False
+"Monte Carlo, normal|0.95",2023-07-17,10198405,6986549,False
+"Monte Carlo, normal|0.95",2023-07-18,10143764,-1663876,False
+"Monte Carlo, normal|0.95",2023-07-19,10162832,-876923,False
+"Monte Carlo, normal|0.95",2023-07-20,10186237,-4795696,False
+"Monte Carlo, normal|0.95",2023-07-21,10200687,6842007,False
+"Monte Carlo, normal|0.95",2023-07-24,10138805,-1471464,False
+"Monte Carlo, normal|0.95",2023-07-25,10146258,-11163205,False
+"Monte Carlo, normal|0.95",2023-07-26,10434498,1052323,False
+"Monte Carlo, normal|0.95",2023-07-27,10441727,3360166,False
+"Monte Carlo, normal|0.95",2023-07-28,10342371,-1521169,False
+"Monte Carlo, normal|0.95",2023-07-31,10380231,-14865436,False
+"Monte Carlo, normal|0.95",2023-08-01,10794077,10335934,False
+"Monte Carlo, normal|0.95",2023-08-02,10705669,10231996,False
+"Monte Carlo, normal|0.95",2023-08-03,10660501,2352554,False
+"Monte Carlo, normal|0.95",2023-08-04,10599319,8341248,False
+"Monte Carlo, normal|0.95",2023-08-07,10407173,3752348,False
+"Monte Carlo, normal|0.95",2023-08-08,10308447,10870483,True
+"Monte Carlo, normal|0.95",2023-08-09,10264254,-1706230,False
+"Monte Carlo, normal|0.95",2023-08-10,10192703,-1018371,False
+"Monte Carlo, normal|0.95",2023-08-11,10133193,5842865,False
+"Monte Carlo, normal|0.95",2023-08-14,10098985,-2541012,False
+"Monte Carlo, normal|0.95",2023-08-15,10129907,5672997,False
+"Monte Carlo, normal|0.95",2023-08-16,10079781,217616,False
+"Monte Carlo, normal|0.95",2023-08-17,10056909,-7843999,False
+"Monte Carlo, normal|0.95",2023-08-18,10261784,725162,False
+"Monte Carlo, normal|0.95",2023-08-21,10249089,-10207527,False
+"Monte Carlo, normal|0.95",2023-08-22,10507391,-7030824,False
+"Monte Carlo, normal|0.95",2023-08-23,10617464,-16303741,False
+"Monte Carlo, normal|0.95",2023-08-24,11149236,2397959,False
+"Monte Carlo, normal|0.95",2023-08-25,11095976,-2920891,False
+"Monte Carlo, normal|0.95",2023-08-29,10924113,-2373721,False
+"Monte Carlo, normal|0.95",2023-08-30,10927076,1398063,False
+"Monte Carlo, normal|0.95",2023-08-31,10787093,978013,False
+"Monte Carlo, normal|0.95",2023-09-01,10767208,-5265323,False
+"Monte Carlo, normal|0.95",2023-09-05,10855225,9109895,False
+"Monte Carlo, normal|0.95",2023-09-06,10749777,6239249,False
+"Monte Carlo, normal|0.95",2023-09-07,10561080,7743614,False
+"Monte Carlo, normal|0.95",2023-09-08,10454174,1423715,False
+"Monte Carlo, normal|0.95",2023-09-11,10430455,-3428905,False
+"Monte Carlo, normal|0.95",2023-09-12,10487008,-152459,False
+"Monte Carlo, normal|0.95",2023-09-13,10483353,1634552,False
+"Monte Carlo, normal|0.95",2023-09-14,10331412,-4885557,False
+"Monte Carlo, normal|0.95",2023-09-15,10363890,-1833301,False
+"Monte Carlo, normal|0.95",2023-09-18,10425903,372874,False
+"Monte Carlo, normal|0.95",2023-09-19,10417118,1157903,False
+"Monte Carlo, normal|0.95",2023-09-20,10341104,-2210906,False
+"Monte Carlo, normal|0.95",2023-09-21,10349594,3135718,False
+"Monte Carlo, normal|0.95",2023-09-22,10319065,-3898549,False
+"Monte Carlo, normal|0.95",2023-09-25,10347578,4650125,False
+"Monte Carlo, normal|0.95",2023-09-26,10258744,5568089,False
+"Monte Carlo, normal|0.95",2023-09-27,10136737,133358,False
+"Monte Carlo, normal|0.95",2023-09-28,10083732,379789,False
+"Monte Carlo, normal|0.95",2023-09-29,10071842,3406369,False
+"Monte Carlo, normal|0.95",2023-10-02,9961802,15095599,True
+"Monte Carlo, normal|0.95",2023-10-03,9901917,3396857,False
+"Monte Carlo, normal|0.95",2023-10-04,9877562,6997895,False
+"Monte Carlo, normal|0.95",2023-10-05,9797344,7282783,False
+"Monte Carlo, normal|0.95",2023-10-06,9622594,-10229471,False
+"Monte Carlo, normal|0.95",2023-10-09,9908165,-11648186,False
+"Monte Carlo, normal|0.95",2023-10-10,10245406,7686941,False
+"Monte Carlo, normal|0.95",2023-10-11,10179429,-4103092,False
+"Monte Carlo, normal|0.95",2023-10-12,10268369,-4056963,False
+"Monte Carlo, normal|0.95",2023-10-13,10273645,-9812698,False
+"Monte Carlo, normal|0.95",2023-10-16,10510974,2792428,False
+"Monte Carlo, normal|0.95",2023-10-17,10447610,352209,False
+"Monte Carlo, normal|0.95",2023-10-18,10447796,-5079414,False
+"Monte Carlo, normal|0.95",2023-10-19,10559740,-823843,False
+"Monte Carlo, normal|0.95",2023-10-20,10566887,-1408460,False
+"Monte Carlo, normal|0.95",2023-10-23,10474199,8693094,False
+"Monte Carlo, normal|0.95",2023-10-24,10384784,-3959596,False
+"Monte Carlo, normal|0.95",2023-10-25,10450718,-2578122,False
+"Monte Carlo, normal|0.95",2023-10-26,10463702,799979,False
+"Monte Carlo, normal|0.95",2023-10-27,10447357,-5463613,False
+"Monte Carlo, normal|0.95",2023-10-30,10566464,-4485237,False
+"Monte Carlo, normal|0.95",2023-10-31,10550430,7276106,False
+"Monte Carlo, normal|0.95",2023-11-01,10472211,-2034477,False
+"Monte Carlo, normal|0.95",2023-11-02,10433010,5319988,False
+"Monte Carlo, normal|0.95",2023-11-03,10239530,-480474,False
+"Monte Carlo, normal|0.95",2023-11-06,10117640,-2916617,False
+"Monte Carlo, normal|0.95",2023-11-07,10093438,10088702,False
+"Monte Carlo, normal|0.95",2023-11-08,9602414,-902528,False
+"Monte Carlo, normal|0.95",2023-11-09,9581430,-5824927,False
+"Monte Carlo, normal|0.95",2023-11-10,9704565,13597606,True
+filtered HS (EWMA)|0.95,2023-05-05,7812488,12707603,True
+filtered HS (EWMA)|0.95,2023-05-09,8492091,-12373656,False
+filtered HS (EWMA)|0.95,2023-05-10,9030110,8496943,False
+filtered HS (EWMA)|0.95,2023-05-11,8720167,20759165,True
+filtered HS (EWMA)|0.95,2023-05-12,11707673,5593114,False
+filtered HS (EWMA)|0.95,2023-05-15,11317834,-5726885,False
+filtered HS (EWMA)|0.95,2023-05-16,11187213,10132340,False
+filtered HS (EWMA)|0.95,2023-05-17,11269922,-4833867,False
+filtered HS (EWMA)|0.95,2023-05-18,11128857,-164607,False
+filtered HS (EWMA)|0.95,2023-05-19,10763793,-4219392,False
+filtered HS (EWMA)|0.95,2023-05-22,10701705,6610743,False
+filtered HS (EWMA)|0.95,2023-05-23,10510483,3312016,False
+filtered HS (EWMA)|0.95,2023-05-24,10265273,8561269,False
+filtered HS (EWMA)|0.95,2023-05-25,10132285,2910380,False
+filtered HS (EWMA)|0.95,2023-05-26,9879995,-13827388,False
+filtered HS (EWMA)|0.95,2023-05-30,10373541,-42609,False
+filtered HS (EWMA)|0.95,2023-05-31,10082460,-2782708,False
+filtered HS (EWMA)|0.95,2023-06-01,10057974,-9212591,False
+filtered HS (EWMA)|0.95,2023-06-02,10752576,-2021592,False
+filtered HS (EWMA)|0.95,2023-06-05,10879756,1695841,False
+filtered HS (EWMA)|0.95,2023-06-06,10603907,-2486355,False
+filtered HS (EWMA)|0.95,2023-06-07,10364412,381465,False
+filtered HS (EWMA)|0.95,2023-06-08,10105569,-2425752,False
+filtered HS (EWMA)|0.95,2023-06-09,10711146,-6187130,False
+filtered HS (EWMA)|0.95,2023-06-12,10777736,5773431,False
+filtered HS (EWMA)|0.95,2023-06-13,10528704,2583303,False
+filtered HS (EWMA)|0.95,2023-06-14,10675171,-4236507,False
+filtered HS (EWMA)|0.95,2023-06-15,10611928,8876253,False
+filtered HS (EWMA)|0.95,2023-06-16,10112176,-5583767,False
+filtered HS (EWMA)|0.95,2023-06-19,10087962,522731,False
+filtered HS (EWMA)|0.95,2023-06-20,9821370,10526196,True
+filtered HS (EWMA)|0.95,2023-06-21,10807941,10008109,False
+filtered HS (EWMA)|0.95,2023-06-22,10748299,2048712,False
+filtered HS (EWMA)|0.95,2023-06-23,10554895,2994457,False
+filtered HS (EWMA)|0.95,2023-06-26,10427488,-5162975,False
+filtered HS (EWMA)|0.95,2023-06-27,10511543,4106871,False
+filtered HS (EWMA)|0.95,2023-06-28,10266254,3217683,False
+filtered HS (EWMA)|0.95,2023-06-29,10128826,3520379,False
+filtered HS (EWMA)|0.95,2023-06-30,9928863,-1089372,False
+filtered HS (EWMA)|0.95,2023-07-03,9862847,-7840778,False
+filtered HS (EWMA)|0.95,2023-07-04,9667059,-2828815,False
+filtered HS (EWMA)|0.95,2023-07-05,9482456,-168980,False
+filtered HS (EWMA)|0.95,2023-07-06,9312254,6113455,False
+filtered HS (EWMA)|0.95,2023-07-07,9164986,11946,False
+filtered HS (EWMA)|0.95,2023-07-10,8967815,850884,False
+filtered HS (EWMA)|0.95,2023-07-11,8724138,-2474081,False
+filtered HS (EWMA)|0.95,2023-07-12,8625128,-7718600,False
+filtered HS (EWMA)|0.95,2023-07-13,10784838,-12703321,False
+filtered HS (EWMA)|0.95,2023-07-14,11664921,-1798260,False
+filtered HS (EWMA)|0.95,2023-07-17,11343540,6986549,False
+filtered HS (EWMA)|0.95,2023-07-18,11009104,-1663876,False
+filtered HS (EWMA)|0.95,2023-07-19,11061499,-876923,False
+filtered HS (EWMA)|0.95,2023-07-20,10829313,-4795696,False
+filtered HS (EWMA)|0.95,2023-07-21,10964822,6842007,False
+filtered HS (EWMA)|0.95,2023-07-24,10674654,-1471464,False
+filtered HS (EWMA)|0.95,2023-07-25,10510951,-11163205,False
+filtered HS (EWMA)|0.95,2023-07-26,10595288,1052323,False
+filtered HS (EWMA)|0.95,2023-07-27,10414778,3360166,False
+filtered HS (EWMA)|0.95,2023-07-28,11011283,-1521169,False
+filtered HS (EWMA)|0.95,2023-07-31,10742471,-14865436,False
+filtered HS (EWMA)|0.95,2023-08-01,11369715,10335934,False
+filtered HS (EWMA)|0.95,2023-08-02,11093177,10231996,False
+filtered HS (EWMA)|0.95,2023-08-03,11275301,2352554,False
+filtered HS (EWMA)|0.95,2023-08-04,10917545,8341248,False
+filtered HS (EWMA)|0.95,2023-08-07,10891251,3752348,False
+filtered HS (EWMA)|0.95,2023-08-08,10727987,10870483,True
+filtered HS (EWMA)|0.95,2023-08-09,10954346,-1706230,False
+filtered HS (EWMA)|0.95,2023-08-10,10604701,-1018371,False
+filtered HS (EWMA)|0.95,2023-08-11,10253767,5842865,False
+filtered HS (EWMA)|0.95,2023-08-14,10087682,-2541012,False
+filtered HS (EWMA)|0.95,2023-08-15,9822903,5672997,False
+filtered HS (EWMA)|0.95,2023-08-16,9442313,217616,False
+filtered HS (EWMA)|0.95,2023-08-17,9149651,-7843999,False
+filtered HS (EWMA)|0.95,2023-08-18,9177559,725162,False
+filtered HS (EWMA)|0.95,2023-08-21,8881218,-10207527,False
+filtered HS (EWMA)|0.95,2023-08-22,9464334,-7030824,False
+filtered HS (EWMA)|0.95,2023-08-23,9373096,-16303741,False
+filtered HS (EWMA)|0.95,2023-08-24,11028550,2397959,False
+filtered HS (EWMA)|0.95,2023-08-25,10653202,-2920891,False
+filtered HS (EWMA)|0.95,2023-08-29,10106520,-2373721,False
+filtered HS (EWMA)|0.95,2023-08-30,10312071,1398063,False
+filtered HS (EWMA)|0.95,2023-08-31,10108929,978013,False
+filtered HS (EWMA)|0.95,2023-09-01,10075241,-5265323,False
+filtered HS (EWMA)|0.95,2023-09-05,9912435,9109895,False
+filtered HS (EWMA)|0.95,2023-09-06,10226874,6239249,False
+filtered HS (EWMA)|0.95,2023-09-07,9962734,7743614,False
+filtered HS (EWMA)|0.95,2023-09-08,9627018,1423715,False
+filtered HS (EWMA)|0.95,2023-09-11,9317647,-3428905,False
+filtered HS (EWMA)|0.95,2023-09-12,9180119,-152459,False
+filtered HS (EWMA)|0.95,2023-09-13,8911856,1634552,False
+filtered HS (EWMA)|0.95,2023-09-14,8829693,-4885557,False
+filtered HS (EWMA)|0.95,2023-09-15,8941359,-1833301,False
+filtered HS (EWMA)|0.95,2023-09-18,9093710,372874,False
+filtered HS (EWMA)|0.95,2023-09-19,8992823,1157903,False
+filtered HS (EWMA)|0.95,2023-09-20,8782216,-2210906,False
+filtered HS (EWMA)|0.95,2023-09-21,8522630,3135718,False
+filtered HS (EWMA)|0.95,2023-09-22,8416189,-3898549,False
+filtered HS (EWMA)|0.95,2023-09-25,8287749,4650125,False
+filtered HS (EWMA)|0.95,2023-09-26,8346440,5568089,False
+filtered HS (EWMA)|0.95,2023-09-27,8156802,133358,False
+filtered HS (EWMA)|0.95,2023-09-28,8350266,379789,False
+filtered HS (EWMA)|0.95,2023-09-29,8176325,3406369,False
+filtered HS (EWMA)|0.95,2023-10-02,8199797,15095599,True
+filtered HS (EWMA)|0.95,2023-10-03,10342458,3396857,False
+filtered HS (EWMA)|0.95,2023-10-04,10139016,6997895,False
+filtered HS (EWMA)|0.95,2023-10-05,9817734,7282783,False
+filtered HS (EWMA)|0.95,2023-10-06,9568492,-10229471,False
+filtered HS (EWMA)|0.95,2023-10-09,10300328,-11648186,False
+filtered HS (EWMA)|0.95,2023-10-10,10525508,7686941,False
+filtered HS (EWMA)|0.95,2023-10-11,10323869,-4103092,False
+filtered HS (EWMA)|0.95,2023-10-12,10171689,-4056963,False
+filtered HS (EWMA)|0.95,2023-10-13,9985982,-9812698,False
+filtered HS (EWMA)|0.95,2023-10-16,11133841,2792428,False
+filtered HS (EWMA)|0.95,2023-10-17,10702894,352209,False
+filtered HS (EWMA)|0.95,2023-10-18,10437444,-5079414,False
+filtered HS (EWMA)|0.95,2023-10-19,10254581,-823843,False
+filtered HS (EWMA)|0.95,2023-10-20,9872366,-1408460,False
+filtered HS (EWMA)|0.95,2023-10-23,9649049,8693094,False
+filtered HS (EWMA)|0.95,2023-10-24,9324012,-3959596,False
+filtered HS (EWMA)|0.95,2023-10-25,9065821,-2578122,False
+filtered HS (EWMA)|0.95,2023-10-26,8841261,799979,False
+filtered HS (EWMA)|0.95,2023-10-27,8557603,-5463613,False
+filtered HS (EWMA)|0.95,2023-10-30,8446780,-4485237,False
+filtered HS (EWMA)|0.95,2023-10-31,8694956,7276106,False
+filtered HS (EWMA)|0.95,2023-11-01,8619264,-2034477,False
+filtered HS (EWMA)|0.95,2023-11-02,8428139,5319988,False
+filtered HS (EWMA)|0.95,2023-11-03,8168877,-480474,False
+filtered HS (EWMA)|0.95,2023-11-06,8513647,-2916617,False
+filtered HS (EWMA)|0.95,2023-11-07,8325981,10088702,True
+filtered HS (EWMA)|0.95,2023-11-08,8557596,-902528,False
+filtered HS (EWMA)|0.95,2023-11-09,8315893,-5824927,False
+filtered HS (EWMA)|0.95,2023-11-10,8439140,13597606,True
+parametric (delta-normal)|0.99,2023-05-05,16446204,12707603,False
+parametric (delta-normal)|0.99,2023-05-09,16326306,-12373656,False
+parametric (delta-normal)|0.99,2023-05-10,15510736,8496943,False
+parametric (delta-normal)|0.99,2023-05-11,15384450,20759165,True
+parametric (delta-normal)|0.99,2023-05-12,15408365,5593114,False
+parametric (delta-normal)|0.99,2023-05-15,15294375,-5726885,False
+parametric (delta-normal)|0.99,2023-05-16,15501286,10132340,False
+parametric (delta-normal)|0.99,2023-05-17,15390794,-4833867,False
+parametric (delta-normal)|0.99,2023-05-18,15502304,-164607,False
+parametric (delta-normal)|0.99,2023-05-19,15411913,-4219392,False
+parametric (delta-normal)|0.99,2023-05-22,15507225,6610743,False
+parametric (delta-normal)|0.99,2023-05-23,15226697,3312016,False
+parametric (delta-normal)|0.99,2023-05-24,15142079,8561269,False
+parametric (delta-normal)|0.99,2023-05-25,15047874,2910380,False
+parametric (delta-normal)|0.99,2023-05-26,14941627,-13827388,False
+parametric (delta-normal)|0.99,2023-05-30,15544858,-42609,False
+parametric (delta-normal)|0.99,2023-05-31,15526854,-2782708,False
+parametric (delta-normal)|0.99,2023-06-01,15633344,-9212591,False
+parametric (delta-normal)|0.99,2023-06-02,15799357,-2021592,False
+parametric (delta-normal)|0.99,2023-06-05,15717257,1695841,False
+parametric (delta-normal)|0.99,2023-06-06,15300359,-2486355,False
+parametric (delta-normal)|0.99,2023-06-07,15351248,381465,False
+parametric (delta-normal)|0.99,2023-06-08,15183359,-2425752,False
+parametric (delta-normal)|0.99,2023-06-09,15279900,-6187130,False
+parametric (delta-normal)|0.99,2023-06-12,15426087,5773431,False
+parametric (delta-normal)|0.99,2023-06-13,15317330,2583303,False
+parametric (delta-normal)|0.99,2023-06-14,15054172,-4236507,False
+parametric (delta-normal)|0.99,2023-06-15,15122388,8876253,False
+parametric (delta-normal)|0.99,2023-06-16,14994036,-5583767,False
+parametric (delta-normal)|0.99,2023-06-19,15172656,522731,False
+parametric (delta-normal)|0.99,2023-06-20,15147918,10526196,False
+parametric (delta-normal)|0.99,2023-06-21,14865276,10008109,False
+parametric (delta-normal)|0.99,2023-06-22,14728149,2048712,False
+parametric (delta-normal)|0.99,2023-06-23,14613074,2994457,False
+parametric (delta-normal)|0.99,2023-06-26,14032229,-5162975,False
+parametric (delta-normal)|0.99,2023-06-27,14222768,4106871,False
+parametric (delta-normal)|0.99,2023-06-28,14111051,3217683,False
+parametric (delta-normal)|0.99,2023-06-29,14055284,3520379,False
+parametric (delta-normal)|0.99,2023-06-30,13980081,-1089372,False
+parametric (delta-normal)|0.99,2023-07-03,14010879,-7840778,False
+parametric (delta-normal)|0.99,2023-07-04,14261293,-2828815,False
+parametric (delta-normal)|0.99,2023-07-05,14160379,-168980,False
+parametric (delta-normal)|0.99,2023-07-06,13903617,6113455,False
+parametric (delta-normal)|0.99,2023-07-07,13752862,11946,False
+parametric (delta-normal)|0.99,2023-07-10,13771646,850884,False
+parametric (delta-normal)|0.99,2023-07-11,13716360,-2474081,False
+parametric (delta-normal)|0.99,2023-07-12,13760397,-7718600,False
+parametric (delta-normal)|0.99,2023-07-13,14094086,-12703321,False
+parametric (delta-normal)|0.99,2023-07-14,14621571,-1798260,False
+parametric (delta-normal)|0.99,2023-07-17,14531195,6986549,False
+parametric (delta-normal)|0.99,2023-07-18,14460640,-1663876,False
+parametric (delta-normal)|0.99,2023-07-19,14499125,-876923,False
+parametric (delta-normal)|0.99,2023-07-20,14522571,-4795696,False
+parametric (delta-normal)|0.99,2023-07-21,14537336,6842007,False
+parametric (delta-normal)|0.99,2023-07-24,14465121,-1471464,False
+parametric (delta-normal)|0.99,2023-07-25,14448743,-11163205,False
+parametric (delta-normal)|0.99,2023-07-26,14868156,1052323,False
+parametric (delta-normal)|0.99,2023-07-27,14879407,3360166,False
+parametric (delta-normal)|0.99,2023-07-28,14726891,-1521169,False
+parametric (delta-normal)|0.99,2023-07-31,14777067,-14865436,False
+parametric (delta-normal)|0.99,2023-08-01,15414259,10335934,False
+parametric (delta-normal)|0.99,2023-08-02,15282829,10231996,False
+parametric (delta-normal)|0.99,2023-08-03,15187842,2352554,False
+parametric (delta-normal)|0.99,2023-08-04,15093875,8341248,False
+parametric (delta-normal)|0.99,2023-08-07,14832745,3752348,False
+parametric (delta-normal)|0.99,2023-08-08,14714306,10870483,False
+parametric (delta-normal)|0.99,2023-08-09,14641248,-1706230,False
+parametric (delta-normal)|0.99,2023-08-10,14543645,-1018371,False
+parametric (delta-normal)|0.99,2023-08-11,14468251,5842865,False
+parametric (delta-normal)|0.99,2023-08-14,14410527,-2541012,False
+parametric (delta-normal)|0.99,2023-08-15,14461162,5672997,False
+parametric (delta-normal)|0.99,2023-08-16,14388733,217616,False
+parametric (delta-normal)|0.99,2023-08-17,14359818,-7843999,False
+parametric (delta-normal)|0.99,2023-08-18,14636378,725162,False
+parametric (delta-normal)|0.99,2023-08-21,14615529,-10207527,False
+parametric (delta-normal)|0.99,2023-08-22,14971948,-7030824,False
+parametric (delta-normal)|0.99,2023-08-23,15121020,-16303741,False
+parametric (delta-normal)|0.99,2023-08-24,15926124,2397959,False
+parametric (delta-normal)|0.99,2023-08-25,15849454,-2920891,False
+parametric (delta-normal)|0.99,2023-08-29,15582478,-2373721,False
+parametric (delta-normal)|0.99,2023-08-30,15599921,1398063,False
+parametric (delta-normal)|0.99,2023-08-31,15404780,978013,False
+parametric (delta-normal)|0.99,2023-09-01,15370693,-5265323,False
+parametric (delta-normal)|0.99,2023-09-05,15449618,9109895,False
+parametric (delta-normal)|0.99,2023-09-06,15303201,6239249,False
+parametric (delta-normal)|0.99,2023-09-07,15038249,7743614,False
+parametric (delta-normal)|0.99,2023-09-08,14887214,1423715,False
+parametric (delta-normal)|0.99,2023-09-11,14852836,-3428905,False
+parametric (delta-normal)|0.99,2023-09-12,14935124,-152459,False
+parametric (delta-normal)|0.99,2023-09-13,14938750,1634552,False
+parametric (delta-normal)|0.99,2023-09-14,14681765,-4885557,False
+parametric (delta-normal)|0.99,2023-09-15,14778589,-1833301,False
+parametric (delta-normal)|0.99,2023-09-18,14854771,372874,False
+parametric (delta-normal)|0.99,2023-09-19,14852269,1157903,False
+parametric (delta-normal)|0.99,2023-09-20,14744689,-2210906,False
+parametric (delta-normal)|0.99,2023-09-21,14755239,3135718,False
+parametric (delta-normal)|0.99,2023-09-22,14719182,-3898549,False
+parametric (delta-normal)|0.99,2023-09-25,14756514,4650125,False
+parametric (delta-normal)|0.99,2023-09-26,14629863,5568089,False
+parametric (delta-normal)|0.99,2023-09-27,14464345,133358,False
+parametric (delta-normal)|0.99,2023-09-28,14392846,379789,False
+parametric (delta-normal)|0.99,2023-09-29,14375843,3406369,False
+parametric (delta-normal)|0.99,2023-10-02,14220925,15095599,True
+parametric (delta-normal)|0.99,2023-10-03,14155117,3396857,False
+parametric (delta-normal)|0.99,2023-10-04,14118249,6997895,False
+parametric (delta-normal)|0.99,2023-10-05,14008986,7282783,False
+parametric (delta-normal)|0.99,2023-10-06,13733003,-10229471,False
+parametric (delta-normal)|0.99,2023-10-09,14161396,-11648186,False
+parametric (delta-normal)|0.99,2023-10-10,14642119,7686941,False
+parametric (delta-normal)|0.99,2023-10-11,14551634,-4103092,False
+parametric (delta-normal)|0.99,2023-10-12,14686142,-4056963,False
+parametric (delta-normal)|0.99,2023-10-13,14678468,-9812698,False
+parametric (delta-normal)|0.99,2023-10-16,15058414,2792428,False
+parametric (delta-normal)|0.99,2023-10-17,14951972,352209,False
+parametric (delta-normal)|0.99,2023-10-18,14975674,-5079414,False
+parametric (delta-normal)|0.99,2023-10-19,15121060,-823843,False
+parametric (delta-normal)|0.99,2023-10-20,15149093,-1408460,False
+parametric (delta-normal)|0.99,2023-10-23,15014247,8693094,False
+parametric (delta-normal)|0.99,2023-10-24,14883089,-3959596,False
+parametric (delta-normal)|0.99,2023-10-25,14975093,-2578122,False
+parametric (delta-normal)|0.99,2023-10-26,14990656,799979,False
+parametric (delta-normal)|0.99,2023-10-27,14969326,-5463613,False
+parametric (delta-normal)|0.99,2023-10-30,15158062,-4485237,False
+parametric (delta-normal)|0.99,2023-10-31,15131544,7276106,False
+parametric (delta-normal)|0.99,2023-11-01,15017819,-2034477,False
+parametric (delta-normal)|0.99,2023-11-02,14958744,5319988,False
+parametric (delta-normal)|0.99,2023-11-03,14649625,-480474,False
+parametric (delta-normal)|0.99,2023-11-06,14473867,-2916617,False
+parametric (delta-normal)|0.99,2023-11-07,14446470,10088702,False
+parametric (delta-normal)|0.99,2023-11-08,13755893,-902528,False
+parametric (delta-normal)|0.99,2023-11-09,13731799,-5824927,False
+parametric (delta-normal)|0.99,2023-11-10,13895675,13597606,False
+historical simulation|0.99,2023-05-05,14402728,12707603,False
+historical simulation|0.99,2023-05-09,14171731,-12373656,False
+historical simulation|0.99,2023-05-10,14450116,8496943,False
+historical simulation|0.99,2023-05-11,14257339,20759165,True
+historical simulation|0.99,2023-05-12,15231878,5593114,False
+historical simulation|0.99,2023-05-15,15103630,-5726885,False
+historical simulation|0.99,2023-05-16,15234455,10132340,False
+historical simulation|0.99,2023-05-17,15000030,-4833867,False
+historical simulation|0.99,2023-05-18,15113449,-164607,False
+historical simulation|0.99,2023-05-19,15118658,-4219392,False
+historical simulation|0.99,2023-05-22,15214941,6610743,False
+historical simulation|0.99,2023-05-23,15060972,3312016,False
+historical simulation|0.99,2023-05-24,14984807,8561269,False
+historical simulation|0.99,2023-05-25,14786742,2910380,False
+historical simulation|0.99,2023-05-26,14721296,-13827388,False
+historical simulation|0.99,2023-05-30,15040753,-42609,False
+historical simulation|0.99,2023-05-31,15042846,-2782708,False
+historical simulation|0.99,2023-06-01,15103972,-9212591,False
+historical simulation|0.99,2023-06-02,15317715,-2021592,False
+historical simulation|0.99,2023-06-05,15368343,1695841,False
+historical simulation|0.99,2023-06-06,15327958,-2486355,False
+historical simulation|0.99,2023-06-07,15386250,381465,False
+historical simulation|0.99,2023-06-08,15378795,-2425752,False
+historical simulation|0.99,2023-06-09,15428599,-6187130,False
+historical simulation|0.99,2023-06-12,15573568,5773431,False
+historical simulation|0.99,2023-06-13,15439956,2583303,False
+historical simulation|0.99,2023-06-14,15384514,-4236507,False
+historical simulation|0.99,2023-06-15,15482526,8876253,False
+historical simulation|0.99,2023-06-16,15277178,-5583767,False
+historical simulation|0.99,2023-06-19,15405873,522731,False
+historical simulation|0.99,2023-06-20,15394774,10526196,False
+historical simulation|0.99,2023-06-21,15155926,10008109,False
+historical simulation|0.99,2023-06-22,14928200,2048712,False
+historical simulation|0.99,2023-06-23,14884122,2994457,False
+historical simulation|0.99,2023-06-26,14811109,-5162975,False
+historical simulation|0.99,2023-06-27,14927583,4106871,False
+historical simulation|0.99,2023-06-28,14830862,3217683,False
+historical simulation|0.99,2023-06-29,14755802,3520379,False
+historical simulation|0.99,2023-06-30,14673738,-1089372,False
+historical simulation|0.99,2023-07-03,14698609,-7840778,False
+historical simulation|0.99,2023-07-04,14881442,-2828815,False
+historical simulation|0.99,2023-07-05,14946305,-168980,False
+historical simulation|0.99,2023-07-06,14947800,6113455,False
+historical simulation|0.99,2023-07-07,14808926,11946,False
+historical simulation|0.99,2023-07-10,14807183,850884,False
+historical simulation|0.99,2023-07-11,14786973,-2474081,False
+historical simulation|0.99,2023-07-12,14845581,-7718600,False
+historical simulation|0.99,2023-07-13,15018243,-12703321,False
+historical simulation|0.99,2023-07-14,15311441,-1798260,False
+historical simulation|0.99,2023-07-17,15353688,6986549,False
+historical simulation|0.99,2023-07-18,15189676,-1663876,False
+historical simulation|0.99,2023-07-19,15225971,-876923,False
+historical simulation|0.99,2023-07-20,15244928,-4795696,False
+historical simulation|0.99,2023-07-21,15361045,6842007,False
+historical simulation|0.99,2023-07-24,15201889,-1471464,False
+historical simulation|0.99,2023-07-25,15237122,-11163205,False
+historical simulation|0.99,2023-07-26,15496097,1052323,False
+historical simulation|0.99,2023-07-27,15469607,3360166,False
+historical simulation|0.99,2023-07-28,15397076,-1521169,False
+historical simulation|0.99,2023-07-31,15431229,-14865436,False
+historical simulation|0.99,2023-08-01,15775807,10335934,False
+historical simulation|0.99,2023-08-02,15538060,10231996,False
+historical simulation|0.99,2023-08-03,15301870,2352554,False
+historical simulation|0.99,2023-08-04,15248968,8341248,False
+historical simulation|0.99,2023-08-07,15053889,3752348,False
+historical simulation|0.99,2023-08-08,14970404,10870483,False
+historical simulation|0.99,2023-08-09,14717777,-1706230,False
+historical simulation|0.99,2023-08-10,14759604,-1018371,False
+historical simulation|0.99,2023-08-11,14783505,5842865,False
+historical simulation|0.99,2023-08-14,14645619,-2541012,False
+historical simulation|0.99,2023-08-15,14704734,5672997,False
+historical simulation|0.99,2023-08-16,14572290,217616,False
+historical simulation|0.99,2023-08-17,14568016,-7843999,False
+historical simulation|0.99,2023-08-18,14748758,725162,False
+historical simulation|0.99,2023-08-21,14732134,-10207527,False
+historical simulation|0.99,2023-08-22,14964954,-7030824,False
+historical simulation|0.99,2023-08-23,15128711,-16303741,False
+historical simulation|0.99,2023-08-24,15501929,2397959,False
+historical simulation|0.99,2023-08-25,15446493,-2920891,False
+historical simulation|0.99,2023-08-29,12465066,-2373721,False
+historical simulation|0.99,2023-08-30,12518452,1398063,False
+historical simulation|0.99,2023-08-31,12487640,978013,False
+historical simulation|0.99,2023-09-01,12470189,-5265323,False
+historical simulation|0.99,2023-09-05,12555826,9109895,False
+historical simulation|0.99,2023-09-06,12379712,6239249,False
+historical simulation|0.99,2023-09-07,12259806,7743614,False
+historical simulation|0.99,2023-09-08,12119338,1423715,False
+historical simulation|0.99,2023-09-11,12093137,-3428905,False
+historical simulation|0.99,2023-09-12,12154448,-152459,False
+historical simulation|0.99,2023-09-13,12157550,1634552,False
+historical simulation|0.99,2023-09-14,12121764,-4885557,False
+historical simulation|0.99,2023-09-15,12205419,-1833301,False
+historical simulation|0.99,2023-09-18,12248036,372874,False
+historical simulation|0.99,2023-09-19,12249058,1157903,False
+historical simulation|0.99,2023-09-20,12231535,-2210906,False
+historical simulation|0.99,2023-09-21,12269938,3135718,False
+historical simulation|0.99,2023-09-22,12221371,-3898549,False
+historical simulation|0.99,2023-09-25,12294775,4650125,False
+historical simulation|0.99,2023-09-26,12203973,5568089,False
+historical simulation|0.99,2023-09-27,12099569,133358,False
+historical simulation|0.99,2023-09-28,12089995,379789,False
+historical simulation|0.99,2023-09-29,12081617,3406369,False
+historical simulation|0.99,2023-10-02,12005002,15095599,True
+historical simulation|0.99,2023-10-03,14555431,3396857,False
+historical simulation|0.99,2023-10-04,14592223,6997895,False
+historical simulation|0.99,2023-10-05,14417113,7282783,False
+historical simulation|0.99,2023-10-06,14298726,-10229471,False
+historical simulation|0.99,2023-10-09,14643960,-11648186,False
+historical simulation|0.99,2023-10-10,14918837,7686941,False
+historical simulation|0.99,2023-10-11,14791844,-4103092,False
+historical simulation|0.99,2023-10-12,14922653,-4056963,False
+historical simulation|0.99,2023-10-13,14929112,-9812698,False
+historical simulation|0.99,2023-10-16,15456061,2792428,False
+historical simulation|0.99,2023-10-17,15332837,352209,False
+historical simulation|0.99,2023-10-18,15430197,-5079414,False
+historical simulation|0.99,2023-10-19,15523100,-823843,False
+historical simulation|0.99,2023-10-20,15565138,-1408460,False
+historical simulation|0.99,2023-10-23,15706273,8693094,False
+historical simulation|0.99,2023-10-24,15395236,-3959596,False
+historical simulation|0.99,2023-10-25,15478408,-2578122,False
+historical simulation|0.99,2023-10-26,15498951,799979,False
+historical simulation|0.99,2023-10-27,15470097,-5463613,False
+historical simulation|0.99,2023-10-30,15658055,-4485237,False
+historical simulation|0.99,2023-10-31,15697540,7276106,False
+historical simulation|0.99,2023-11-01,15465865,-2034477,False
+historical simulation|0.99,2023-11-02,15553153,5319988,False
+historical simulation|0.99,2023-11-03,15336923,-480474,False
+historical simulation|0.99,2023-11-06,15460290,-2916617,False
+historical simulation|0.99,2023-11-07,15482429,10088702,False
+historical simulation|0.99,2023-11-08,10729204,-902528,False
+historical simulation|0.99,2023-11-09,10744708,-5824927,False
+historical simulation|0.99,2023-11-10,10808505,13597606,True
+"Monte Carlo, normal|0.99",2023-05-05,16223825,12707603,False
+"Monte Carlo, normal|0.99",2023-05-09,16101221,-12373656,False
+"Monte Carlo, normal|0.99",2023-05-10,15262498,8496943,False
+"Monte Carlo, normal|0.99",2023-05-11,15199222,20759165,True
+"Monte Carlo, normal|0.99",2023-05-12,15233934,5593114,False
+"Monte Carlo, normal|0.99",2023-05-15,15125041,-5726885,False
+"Monte Carlo, normal|0.99",2023-05-16,15297748,10132340,False
+"Monte Carlo, normal|0.99",2023-05-17,15158949,-4833867,False
+"Monte Carlo, normal|0.99",2023-05-18,15276807,-164607,False
+"Monte Carlo, normal|0.99",2023-05-19,15199749,-4219392,False
+"Monte Carlo, normal|0.99",2023-05-22,15302494,6610743,False
+"Monte Carlo, normal|0.99",2023-05-23,15041038,3312016,False
+"Monte Carlo, normal|0.99",2023-05-24,14960756,8561269,False
+"Monte Carlo, normal|0.99",2023-05-25,14848524,2910380,False
+"Monte Carlo, normal|0.99",2023-05-26,14754672,-13827388,False
+"Monte Carlo, normal|0.99",2023-05-30,15360348,-42609,False
+"Monte Carlo, normal|0.99",2023-05-31,15340417,-2782708,False
+"Monte Carlo, normal|0.99",2023-06-01,15415926,-9212591,False
+"Monte Carlo, normal|0.99",2023-06-02,15581971,-2021592,False
+"Monte Carlo, normal|0.99",2023-06-05,15513392,1695841,False
+"Monte Carlo, normal|0.99",2023-06-06,15088092,-2486355,False
+"Monte Carlo, normal|0.99",2023-06-07,15131315,381465,False
+"Monte Carlo, normal|0.99",2023-06-08,14976348,-2425752,False
+"Monte Carlo, normal|0.99",2023-06-09,15094906,-6187130,False
+"Monte Carlo, normal|0.99",2023-06-12,15223907,5773431,False
+"Monte Carlo, normal|0.99",2023-06-13,15113619,2583303,False
+"Monte Carlo, normal|0.99",2023-06-14,14804743,-4236507,False
+"Monte Carlo, normal|0.99",2023-06-15,14877258,8876253,False
+"Monte Carlo, normal|0.99",2023-06-16,14735339,-5583767,False
+"Monte Carlo, normal|0.99",2023-06-19,14924236,522731,False
+"Monte Carlo, normal|0.99",2023-06-20,14897348,10526196,False
+"Monte Carlo, normal|0.99",2023-06-21,14627292,10008109,False
+"Monte Carlo, normal|0.99",2023-06-22,14506107,2048712,False
+"Monte Carlo, normal|0.99",2023-06-23,14376074,2994457,False
+"Monte Carlo, normal|0.99",2023-06-26,13756982,-5162975,False
+"Monte Carlo, normal|0.99",2023-06-27,13954463,4106871,False
+"Monte Carlo, normal|0.99",2023-06-28,13836592,3217683,False
+"Monte Carlo, normal|0.99",2023-06-29,13784397,3520379,False
+"Monte Carlo, normal|0.99",2023-06-30,13712779,-1089372,False
+"Monte Carlo, normal|0.99",2023-07-03,13728805,-7840778,False
+"Monte Carlo, normal|0.99",2023-07-04,13982965,-2828815,False
+"Monte Carlo, normal|0.99",2023-07-05,13928879,-168980,False
+"Monte Carlo, normal|0.99",2023-07-06,13660654,6113455,False
+"Monte Carlo, normal|0.99",2023-07-07,13556480,11946,False
+"Monte Carlo, normal|0.99",2023-07-10,13608340,850884,False
+"Monte Carlo, normal|0.99",2023-07-11,13562446,-2474081,False
+"Monte Carlo, normal|0.99",2023-07-12,13605972,-7718600,False
+"Monte Carlo, normal|0.99",2023-07-13,13941425,-12703321,False
+"Monte Carlo, normal|0.99",2023-07-14,14428809,-1798260,False
+"Monte Carlo, normal|0.99",2023-07-17,14348410,6986549,False
+"Monte Carlo, normal|0.99",2023-07-18,14287827,-1663876,False
+"Monte Carlo, normal|0.99",2023-07-19,14317581,-876923,False
+"Monte Carlo, normal|0.99",2023-07-20,14361023,-4795696,False
+"Monte Carlo, normal|0.99",2023-07-21,14367966,6842007,False
+"Monte Carlo, normal|0.99",2023-07-24,14289139,-1471464,False
+"Monte Carlo, normal|0.99",2023-07-25,14259556,-11163205,False
+"Monte Carlo, normal|0.99",2023-07-26,14680566,1052323,False
+"Monte Carlo, normal|0.99",2023-07-27,14692023,3360166,False
+"Monte Carlo, normal|0.99",2023-07-28,14571038,-1521169,False
+"Monte Carlo, normal|0.99",2023-07-31,14607719,-14865436,False
+"Monte Carlo, normal|0.99",2023-08-01,15236534,10335934,False
+"Monte Carlo, normal|0.99",2023-08-02,15080183,10231996,False
+"Monte Carlo, normal|0.99",2023-08-03,14985501,2352554,False
+"Monte Carlo, normal|0.99",2023-08-04,14916268,8341248,False
+"Monte Carlo, normal|0.99",2023-08-07,14646126,3752348,False
+"Monte Carlo, normal|0.99",2023-08-08,14539432,10870483,False
+"Monte Carlo, normal|0.99",2023-08-09,14483872,-1706230,False
+"Monte Carlo, normal|0.99",2023-08-10,14360277,-1018371,False
+"Monte Carlo, normal|0.99",2023-08-11,14275949,5842865,False
+"Monte Carlo, normal|0.99",2023-08-14,14271844,-2541012,False
+"Monte Carlo, normal|0.99",2023-08-15,14314739,5672997,False
+"Monte Carlo, normal|0.99",2023-08-16,14258287,217616,False
+"Monte Carlo, normal|0.99",2023-08-17,14210686,-7843999,False
+"Monte Carlo, normal|0.99",2023-08-18,14501332,725162,False
+"Monte Carlo, normal|0.99",2023-08-21,14479893,-10207527,False
+"Monte Carlo, normal|0.99",2023-08-22,14798038,-7030824,False
+"Monte Carlo, normal|0.99",2023-08-23,14953201,-16303741,False
+"Monte Carlo, normal|0.99",2023-08-24,15658497,2397959,False
+"Monte Carlo, normal|0.99",2023-08-25,15586088,-2920891,False
+"Monte Carlo, normal|0.99",2023-08-29,15374585,-2373721,False
+"Monte Carlo, normal|0.99",2023-08-30,15368984,1398063,False
+"Monte Carlo, normal|0.99",2023-08-31,15193201,978013,False
+"Monte Carlo, normal|0.99",2023-09-01,15157960,-5265323,False
+"Monte Carlo, normal|0.99",2023-09-05,15279863,9109895,False
+"Monte Carlo, normal|0.99",2023-09-06,15130372,6239249,False
+"Monte Carlo, normal|0.99",2023-09-07,14873470,7743614,False
+"Monte Carlo, normal|0.99",2023-09-08,14727644,1423715,False
+"Monte Carlo, normal|0.99",2023-09-11,14693564,-3428905,False
+"Monte Carlo, normal|0.99",2023-09-12,14769333,-152459,False
+"Monte Carlo, normal|0.99",2023-09-13,14771021,1634552,False
+"Monte Carlo, normal|0.99",2023-09-14,14533084,-4885557,False
+"Monte Carlo, normal|0.99",2023-09-15,14621985,-1833301,False
+"Monte Carlo, normal|0.99",2023-09-18,14683631,372874,False
+"Monte Carlo, normal|0.99",2023-09-19,14665980,1157903,False
+"Monte Carlo, normal|0.99",2023-09-20,14553668,-2210906,False
+"Monte Carlo, normal|0.99",2023-09-21,14565803,3135718,False
+"Monte Carlo, normal|0.99",2023-09-22,14512841,-3898549,False
+"Monte Carlo, normal|0.99",2023-09-25,14540342,4650125,False
+"Monte Carlo, normal|0.99",2023-09-26,14418794,5568089,False
+"Monte Carlo, normal|0.99",2023-09-27,14248554,133358,False
+"Monte Carlo, normal|0.99",2023-09-28,14180135,379789,False
+"Monte Carlo, normal|0.99",2023-09-29,14161582,3406369,False
+"Monte Carlo, normal|0.99",2023-10-02,14059547,15095599,True
+"Monte Carlo, normal|0.99",2023-10-03,13948739,3396857,False
+"Monte Carlo, normal|0.99",2023-10-04,13908184,6997895,False
+"Monte Carlo, normal|0.99",2023-10-05,13802420,7282783,False
+"Monte Carlo, normal|0.99",2023-10-06,13572102,-10229471,False
+"Monte Carlo, normal|0.99",2023-10-09,13955512,-11648186,False
+"Monte Carlo, normal|0.99",2023-10-10,14429765,7686941,False
+"Monte Carlo, normal|0.99",2023-10-11,14341734,-4103092,False
+"Monte Carlo, normal|0.99",2023-10-12,14422719,-4056963,False
+"Monte Carlo, normal|0.99",2023-10-13,14474496,-9812698,False
+"Monte Carlo, normal|0.99",2023-10-16,14834888,2792428,False
+"Monte Carlo, normal|0.99",2023-10-17,14695994,352209,False
+"Monte Carlo, normal|0.99",2023-10-18,14733943,-5079414,False
+"Monte Carlo, normal|0.99",2023-10-19,14857670,-823843,False
+"Monte Carlo, normal|0.99",2023-10-20,14901946,-1408460,False
+"Monte Carlo, normal|0.99",2023-10-23,14758765,8693094,False
+"Monte Carlo, normal|0.99",2023-10-24,14624236,-3959596,False
+"Monte Carlo, normal|0.99",2023-10-25,14728295,-2578122,False
+"Monte Carlo, normal|0.99",2023-10-26,14763907,799979,False
+"Monte Carlo, normal|0.99",2023-10-27,14745549,-5463613,False
+"Monte Carlo, normal|0.99",2023-10-30,14931264,-4485237,False
+"Monte Carlo, normal|0.99",2023-10-31,14945827,7276106,False
+"Monte Carlo, normal|0.99",2023-11-01,14819353,-2034477,False
+"Monte Carlo, normal|0.99",2023-11-02,14764651,5319988,False
+"Monte Carlo, normal|0.99",2023-11-03,14447770,-480474,False
+"Monte Carlo, normal|0.99",2023-11-06,14277939,-2916617,False
+"Monte Carlo, normal|0.99",2023-11-07,14259456,10088702,False
+"Monte Carlo, normal|0.99",2023-11-08,13584792,-902528,False
+"Monte Carlo, normal|0.99",2023-11-09,13566615,-5824927,False
+"Monte Carlo, normal|0.99",2023-11-10,13718327,13597606,False
+filtered HS (EWMA)|0.99,2023-05-05,13051766,12707603,False
+filtered HS (EWMA)|0.99,2023-05-09,13007483,-12373656,False
+filtered HS (EWMA)|0.99,2023-05-10,13951112,8496943,False
+filtered HS (EWMA)|0.99,2023-05-11,13524894,20759165,True
+filtered HS (EWMA)|0.99,2023-05-12,16497237,5593114,False
+filtered HS (EWMA)|0.99,2023-05-15,16022176,-5726885,False
+filtered HS (EWMA)|0.99,2023-05-16,15731276,10132340,False
+filtered HS (EWMA)|0.99,2023-05-17,15980289,-4833867,False
+filtered HS (EWMA)|0.99,2023-05-18,15888800,-164607,False
+filtered HS (EWMA)|0.99,2023-05-19,15444578,-4219392,False
+filtered HS (EWMA)|0.99,2023-05-22,15410287,6610743,False
+filtered HS (EWMA)|0.99,2023-05-23,15396564,3312016,False
+filtered HS (EWMA)|0.99,2023-05-24,15054031,8561269,False
+filtered HS (EWMA)|0.99,2023-05-25,15177031,2910380,False
+filtered HS (EWMA)|0.99,2023-05-26,14868531,-13827388,False
+filtered HS (EWMA)|0.99,2023-05-30,16280771,-42609,False
+filtered HS (EWMA)|0.99,2023-05-31,15837241,-2782708,False
+filtered HS (EWMA)|0.99,2023-06-01,15861834,-9212591,False
+filtered HS (EWMA)|0.99,2023-06-02,17001199,-2021592,False
+filtered HS (EWMA)|0.99,2023-06-05,17172577,1695841,False
+filtered HS (EWMA)|0.99,2023-06-06,16843415,-2486355,False
+filtered HS (EWMA)|0.99,2023-06-07,16441488,381465,False
+filtered HS (EWMA)|0.99,2023-06-08,16038963,-2425752,False
+filtered HS (EWMA)|0.99,2023-06-09,17381259,-6187130,False
+filtered HS (EWMA)|0.99,2023-06-12,17411388,5773431,False
+filtered HS (EWMA)|0.99,2023-06-13,17035505,2583303,False
+filtered HS (EWMA)|0.99,2023-06-14,17295848,-4236507,False
+filtered HS (EWMA)|0.99,2023-06-15,17171620,8876253,False
+filtered HS (EWMA)|0.99,2023-06-16,16075060,-5583767,False
+filtered HS (EWMA)|0.99,2023-06-19,16059835,522731,False
+filtered HS (EWMA)|0.99,2023-06-20,15577099,10526196,False
+filtered HS (EWMA)|0.99,2023-06-21,16433510,10008109,False
+filtered HS (EWMA)|0.99,2023-06-22,16312371,2048712,False
+filtered HS (EWMA)|0.99,2023-06-23,16201538,2994457,False
+filtered HS (EWMA)|0.99,2023-06-26,16961371,-5162975,False
+filtered HS (EWMA)|0.99,2023-06-27,16966912,4106871,False
+filtered HS (EWMA)|0.99,2023-06-28,16436299,3217683,False
+filtered HS (EWMA)|0.99,2023-06-29,16095068,3520379,False
+filtered HS (EWMA)|0.99,2023-06-30,15822775,-1089372,False
+filtered HS (EWMA)|0.99,2023-07-03,15403115,-7840778,False
+filtered HS (EWMA)|0.99,2023-07-04,15711653,-2828815,False
+filtered HS (EWMA)|0.99,2023-07-05,15146877,-168980,False
+filtered HS (EWMA)|0.99,2023-07-06,15058733,6113455,False
+filtered HS (EWMA)|0.99,2023-07-07,15008587,11946,False
+filtered HS (EWMA)|0.99,2023-07-10,14579348,850884,False
+filtered HS (EWMA)|0.99,2023-07-11,14513508,-2474081,False
+filtered HS (EWMA)|0.99,2023-07-12,14301953,-7718600,False
+filtered HS (EWMA)|0.99,2023-07-13,16449628,-12703321,False
+filtered HS (EWMA)|0.99,2023-07-14,18525486,-1798260,False
+filtered HS (EWMA)|0.99,2023-07-17,18148101,6986549,False
+filtered HS (EWMA)|0.99,2023-07-18,18236431,-1663876,False
+filtered HS (EWMA)|0.99,2023-07-19,17930326,-876923,False
+filtered HS (EWMA)|0.99,2023-07-20,18206574,-4795696,False
+filtered HS (EWMA)|0.99,2023-07-21,19485360,6842007,False
+filtered HS (EWMA)|0.99,2023-07-24,19004064,-1471464,False
+filtered HS (EWMA)|0.99,2023-07-25,18581089,-11163205,False
+filtered HS (EWMA)|0.99,2023-07-26,19193982,1052323,False
+filtered HS (EWMA)|0.99,2023-07-27,18608274,3360166,False
+filtered HS (EWMA)|0.99,2023-07-28,18869013,-1521169,False
+filtered HS (EWMA)|0.99,2023-07-31,18330644,-14865436,False
+filtered HS (EWMA)|0.99,2023-08-01,19648716,10335934,False
+filtered HS (EWMA)|0.99,2023-08-02,19415462,10231996,False
+filtered HS (EWMA)|0.99,2023-08-03,19538830,2352554,False
+filtered HS (EWMA)|0.99,2023-08-04,18948597,8341248,False
+filtered HS (EWMA)|0.99,2023-08-07,20082431,3752348,False
+filtered HS (EWMA)|0.99,2023-08-08,19928729,10870483,False
+filtered HS (EWMA)|0.99,2023-08-09,20058284,-1706230,False
+filtered HS (EWMA)|0.99,2023-08-10,19920991,-1018371,False
+filtered HS (EWMA)|0.99,2023-08-11,19228455,5842865,False
+filtered HS (EWMA)|0.99,2023-08-14,18711036,-2541012,False
+filtered HS (EWMA)|0.99,2023-08-15,17644620,5672997,False
+filtered HS (EWMA)|0.99,2023-08-16,16881483,217616,False
+filtered HS (EWMA)|0.99,2023-08-17,16249645,-7843999,False
+filtered HS (EWMA)|0.99,2023-08-18,15994034,725162,False
+filtered HS (EWMA)|0.99,2023-08-21,15074565,-10207527,False
+filtered HS (EWMA)|0.99,2023-08-22,15845664,-7030824,False
+filtered HS (EWMA)|0.99,2023-08-23,15414232,-16303741,False
+filtered HS (EWMA)|0.99,2023-08-24,16902881,2397959,False
+filtered HS (EWMA)|0.99,2023-08-25,16101901,-2920891,False
+filtered HS (EWMA)|0.99,2023-08-29,12228604,-2373721,False
+filtered HS (EWMA)|0.99,2023-08-30,12762887,1398063,False
+filtered HS (EWMA)|0.99,2023-08-31,12286407,978013,False
+filtered HS (EWMA)|0.99,2023-09-01,12002267,-5265323,False
+filtered HS (EWMA)|0.99,2023-09-05,11700756,9109895,False
+filtered HS (EWMA)|0.99,2023-09-06,12216837,6239249,False
+filtered HS (EWMA)|0.99,2023-09-07,11964121,7743614,False
+filtered HS (EWMA)|0.99,2023-09-08,11683685,1423715,False
+filtered HS (EWMA)|0.99,2023-09-11,11311200,-3428905,False
+filtered HS (EWMA)|0.99,2023-09-12,11051013,-152459,False
+filtered HS (EWMA)|0.99,2023-09-13,10733957,1634552,False
+filtered HS (EWMA)|0.99,2023-09-14,10652554,-4885557,False
+filtered HS (EWMA)|0.99,2023-09-15,10421900,-1833301,False
+filtered HS (EWMA)|0.99,2023-09-18,10660080,372874,False
+filtered HS (EWMA)|0.99,2023-09-19,10606235,1157903,False
+filtered HS (EWMA)|0.99,2023-09-20,10505039,-2210906,False
+filtered HS (EWMA)|0.99,2023-09-21,10237887,3135718,False
+filtered HS (EWMA)|0.99,2023-09-22,10050233,-3898549,False
+filtered HS (EWMA)|0.99,2023-09-25,9998395,4650125,False
+filtered HS (EWMA)|0.99,2023-09-26,10095496,5568089,False
+filtered HS (EWMA)|0.99,2023-09-27,9834652,133358,False
+filtered HS (EWMA)|0.99,2023-09-28,9983420,379789,False
+filtered HS (EWMA)|0.99,2023-09-29,9960531,3406369,False
+filtered HS (EWMA)|0.99,2023-10-02,9865818,15095599,True
+filtered HS (EWMA)|0.99,2023-10-03,19411553,3396857,False
+filtered HS (EWMA)|0.99,2023-10-04,19334411,6997895,False
+filtered HS (EWMA)|0.99,2023-10-05,18584739,7282783,False
+filtered HS (EWMA)|0.99,2023-10-06,17920064,-10229471,False
+filtered HS (EWMA)|0.99,2023-10-09,19713305,-11648186,False
+filtered HS (EWMA)|0.99,2023-10-10,20371593,7686941,False
+filtered HS (EWMA)|0.99,2023-10-11,19703272,-4103092,False
+filtered HS (EWMA)|0.99,2023-10-12,19558711,-4056963,False
+filtered HS (EWMA)|0.99,2023-10-13,18447924,-9812698,False
+filtered HS (EWMA)|0.99,2023-10-16,22232659,2792428,False
+filtered HS (EWMA)|0.99,2023-10-17,21283074,352209,False
+filtered HS (EWMA)|0.99,2023-10-18,21095756,-5079414,False
+filtered HS (EWMA)|0.99,2023-10-19,20505999,-823843,False
+filtered HS (EWMA)|0.99,2023-10-20,19886234,-1408460,False
+filtered HS (EWMA)|0.99,2023-10-23,19900123,8693094,False
+filtered HS (EWMA)|0.99,2023-10-24,19115721,-3959596,False
+filtered HS (EWMA)|0.99,2023-10-25,18061197,-2578122,False
+filtered HS (EWMA)|0.99,2023-10-26,17540368,799979,False
+filtered HS (EWMA)|0.99,2023-10-27,16999279,-5463613,False
+filtered HS (EWMA)|0.99,2023-10-30,17198703,-4485237,False
+filtered HS (EWMA)|0.99,2023-10-31,17061999,7276106,False
+filtered HS (EWMA)|0.99,2023-11-01,17297820,-2034477,False
+filtered HS (EWMA)|0.99,2023-11-02,16981560,5319988,False
+filtered HS (EWMA)|0.99,2023-11-03,16453225,-480474,False
+filtered HS (EWMA)|0.99,2023-11-06,15991756,-2916617,False
+filtered HS (EWMA)|0.99,2023-11-07,15627836,10088702,False
+filtered HS (EWMA)|0.99,2023-11-08,11869430,-902528,False
+filtered HS (EWMA)|0.99,2023-11-09,11502071,-5824927,False
+filtered HS (EWMA)|0.99,2023-11-10,11744815,13597606,True

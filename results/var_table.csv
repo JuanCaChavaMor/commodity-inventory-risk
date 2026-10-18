@@ -1,0 +1,21 @@
+method,alpha,horizon,VaR,ES
+parametric (delta-normal),0.95,1,10428974.0,13078354.0
+historical simulation,0.95,1,9811945.0,12412131.0
+"Monte Carlo, normal",0.95,1,10307944.0,12918502.0
+"Monte Carlo, Student t",0.95,1,10092050.0,13578457.0
+filtered HS (EWMA),0.95,1,8815603.0,13055806.0
+parametric (delta-normal),0.95,10,32979311.0,41357386.0
+historical simulation,0.95,10,30225588.0,35015786.0
+"Monte Carlo, normal",0.95,10,31812000.0,39719687.0
+"Monte Carlo, Student t",0.95,10,31112484.0,41572652.0
+filtered HS (EWMA),0.95,10,27398034.0,39663860.0
+parametric (delta-normal),0.99,1,14749897.0,16898433.0
+historical simulation,0.99,1,14667165.0,16196171.0
+"Monte Carlo, normal",0.99,1,14564866.0,16677463.0
+"Monte Carlo, Student t",0.99,1,15651077.0,19408431.0
+filtered HS (EWMA),0.99,1,14749274.0,19049019.0
+parametric (delta-normal),0.99,10,46643269.0,53437538.0
+historical simulation,0.99,10,39449105.0,41218024.0
+"Monte Carlo, normal",0.99,10,44701998.0,51000669.0
+"Monte Carlo, Student t",0.99,10,47865937.0,58829088.0
+filtered HS (EWMA),0.99,10,45383987.0,57353412.0

@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrrrr}
+\toprule
+& \multicolumn{4}{c}{95\%} & \multicolumn{4}{c}{99\%} \\ \cmidrule(lr){2-5}\cmidrule(lr){6-9}& \multicolumn{2}{c}{1 day} & \multicolumn{2}{c}{10 days} & \multicolumn{2}{c}{1 day} & \multicolumn{2}{c}{10 days} \\
+method & VaR & ES & VaR & ES & VaR & ES & VaR & ES \\
+\midrule
+parametric (delta-normal) & 10.4 & 13.1 & 33.0 & 41.4 & 14.7 & 16.9 & 46.6 & 53.4 \\
+historical simulation & 9.8 & 12.4 & 30.2 & 35.0 & 14.7 & 16.2 & 39.4 & 41.2 \\
+Monte Carlo, normal & 10.3 & 12.9 & 31.8 & 39.7 & 14.6 & 16.7 & 44.7 & 51.0 \\
+Monte Carlo, Student t & 10.1 & 13.6 & 31.1 & 41.6 & 15.7 & 19.4 & 47.9 & 58.8 \\
+filtered HS (EWMA) & 8.8 & 13.1 & 27.4 & 39.7 & 14.7 & 19.0 & 45.4 & 57.4 \\
+\bottomrule
+\end{tabular}

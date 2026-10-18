@@ -1,0 +1,234 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[authoryear,round]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
+
+\graphicspath{{../figures/}}
+
+\title{Market Risk of a Commodity Inventory:\\ VaR and Expected Shortfall Four Ways}
+\author{Juan Carlos Chavarr\'ia Morales\\[2pt]
+  \small M.Sc.\ Optimization, Hochschule Bielefeld (HSBI)\\
+  \small Module \emph{Risikomanagement}, winter term 2024/25}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A German company holds 500 tonnes of silver. Silver is priced in US dollars, the company reports in euros: the
+euro value of the stock moves with the silver price and with the exchange rate. We measure the one-day 95\% Value
+at Risk (VaR) of this exposure from one year of daily data (November 2022 to November 2023), extend it to a book of
+silver and copper, and compare five methods: parametric (delta-normal), historical simulation, Monte Carlo with
+normal and Student-$t$ shocks, and filtered historical simulation with EWMA volatility. The VaR of the silver stock
+(EUR 334\,m) is EUR 8.3\,m, i.e.\ \SI{2.5}{\percent} of its value; ignoring the correlation between silver and the
+dollar would overstate it by \SI{18}{\percent}, because the two act as a natural hedge in euros. For the two-commodity
+book the one-day estimates of the methods differ by at most \SI{18}{\percent} and differ most in the tail (99\% ES, ten
+days). All methods pass an out-of-sample backtest, but with half a year of backtest the tests have little power: a
+99\% model with twice the nominal exception rate is rejected only one time in eight.
+\end{abstract}
+
+% =====================================================================================================================
+\section{The exposure}
+
+Let $q_i$ be the quantity of commodity $i$ (in the unit of its price), $S_i$ its price in USD and $x$ the EUR/USD
+rate (USD per EUR). The euro value of the book is
+\begin{equation}
+  V = \sum_i V_i, \qquad V_i = \frac{q_i S_i}{x}.
+\end{equation}
+With the risk factors $s_i = \log S_i$ and $f = \log x$, a scenario of factor changes $(\Delta s, \Delta f)$
+revalues the book exactly (\emph{full revaluation}) as
+\begin{equation}
+  \Delta V = \sum_i V_i \left( e^{\Delta s_i - \Delta f} - 1 \right) \approx \sum_i V_i(\Delta s_i - \Delta f),
+\end{equation}
+the right-hand side being the delta approximation. A rise of the dollar ($\Delta f < 0$) raises the euro value; when
+silver and the euro rise together, the two effects cancel. The loss is $L = -\Delta V$; for a level $\alpha$,
+$\mathrm{VaR}_\alpha$ is the $\alpha$-quantile of $L$ and the expected shortfall
+$\mathrm{ES}_\alpha = \mathbb E[L \mid L \ge \mathrm{VaR}_\alpha]$ the mean loss beyond it \citep{McNeil2015}. ES is a
+coherent risk measure \citep{Artzner1999}; VaR is not, but remains the reference in reporting.
+
+\paragraph{The case.} The course exercise gives 500\,t of silver (\num{16.1e6} troy ounces) and asks for the one-day
+VaR(95\%) of its euro value, ``taking into account the correlation that follows from the data''. As a second
+position we add 40\,000\,t of copper; the course gives no quantity, so it is chosen to make the two positions of
+similar size (EUR 334\,m and EUR 300\,m on 10 November 2023).
+
+\paragraph{Data.} Daily closes of silver (USD/oz), copper (USD/t) and EUR/USD from 2 November 2022 to 10 November
+2023, as provided in the course (source: finanzen.net). Silver and EUR/USD also contain weekend quotes; on the 258
+weekdays on which all three closed we have 257 daily returns (\cref{fig:prices}). Annualised volatilities are
+\SI{27}{\percent} (silver), \SI{20}{\percent} (copper) and \SI{9}{\percent} (EUR/USD); silver correlates with EUR/USD
+at $+0.48$ and with copper at $+0.21$. All three return series have excess kurtosis (2.2, 1.4 and 0.7): fat tails,
+one of the stylised facts of financial returns. The course data are not redistributed; the repository contains a
+script that builds the same table from public sources \citep{Repo}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{prices.pdf}
+  \caption{Daily closes used in the study (weekdays common to the three series).}
+  \label{fig:prices}
+\end{figure}
+
+% =====================================================================================================================
+\section{Methods}
+
+\begin{description}
+  \item[Parametric (delta-normal).] Factor changes normal with the sample covariance $\Sigma$, delta approximation:
+    $L \sim N(0, \delta^\top \Sigma \delta)$ with $\delta = (V_1, \dots, V_n, -V)$, so
+    $\mathrm{VaR}_\alpha = z_\alpha \sigma_L$ and $\mathrm{ES}_\alpha = \sigma_L \varphi(z_\alpha)/(1-\alpha)$.
+  \item[Historical simulation.] Today's book revalued under every observed (overlapping) $h$-day factor change; no
+    distributional assumption, but only as many scenarios as days.
+  \item[Monte Carlo.] \num{200000} correlated scenarios (Cholesky factor of $\Sigma$) with full revaluation, with
+    normal shocks or multivariate Student-$t$ shocks of the same covariance; the degrees of freedom ($\nu = 8.2$) are
+    fitted to the daily P\&L of the book.
+  \item[Filtered historical simulation.] Each factor's returns are divided by their EWMA volatility
+    ($\lambda = 0.94$, \citealp{RiskMetrics1996}) and rescaled by today's forecast \citep{HullWhite1998}: the
+    empirical joint shape of the shocks is kept, volatility clustering is taken into account.
+\end{description}
+For ten days, the parametric and Monte Carlo methods scale the covariance by 10 (square-root-of-time); the
+historical methods use overlapping ten-day returns. Risk contributions follow the Euler allocation of the
+parametric VaR, $C_i = z_\alpha \operatorname{cov}(L_i, L)/\sigma_L$, which adds up to the VaR of the book
+\citep{Tasche1999}.
+
+% =====================================================================================================================
+\section{The course exercise: 500 t of silver}
+
+The one-day VaR(95\%) of the silver stock is \textbf{EUR 8.28\,m}, \SI{2.5}{\percent} of its value of EUR 334\,m;
+the ES(95\%) is EUR 10.4\,m. The exercise asked for the correlation, and it matters: with the same volatilities
+and zero correlation, the VaR would be EUR 9.76\,m, \SI{18}{\percent} higher. Silver and the euro tend to rise
+together against the dollar ($\rho = +0.48$), so part of a fall of silver in USD is offset in EUR by a weaker euro and
+vice versa: holding silver in a euro balance sheet is less risky than its dollar volatility suggests (silver price
+risk alone: EUR 9.29\,m).
+
+% =====================================================================================================================
+\section{The book: silver and copper}
+
+\Cref{tab:var} compares the methods. At the one-day horizon and 95\%, they differ by at most \SI{18}{\percent}
+(EUR 8.8--10.4\,m); the filtered historical simulation is lowest because volatility at the end of the sample was
+below its one-year average. At 99\% and ten days the differences grow: the Student-$t$ Monte Carlo and the filtered
+historical simulation have the largest ES (EUR 57--59\,m), the plain historical simulation the smallest, because 248
+overlapping ten-day returns contain few independent extreme scenarios. \Cref{fig:loss} shows the historical loss
+distribution of today's book with the five one-day VaR estimates.
+
+\begin{table}[t]
+  \centering\small
+  \caption{VaR and ES of the silver and copper book (EUR m), as of 10 November 2023.}
+  \label{tab:var}
+  \resizebox{\linewidth}{!}{\input{tables/var.tex}}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.85\linewidth]{loss_distribution.pdf}
+  \caption{One-day losses of today's book under the 257 historical scenarios, and the one-day VaR(95\%) of the five
+    methods.}
+  \label{fig:loss}
+\end{figure}
+
+\paragraph{Diversification.} The stand-alone VaRs of silver and copper add up to EUR 14.2\,m; the VaR of the book
+is EUR 10.4\,m, \SI{27}{\percent} less (\cref{tab:contrib,fig:div}). Silver contributes two thirds of the book VaR
+for a little over half of its value: copper is less volatile and only weakly correlated with silver.
+
+\begin{table}[H]
+  \centering\small
+  \caption{Euler allocation of the one-day parametric VaR(95\%) (EUR m).}
+  \label{tab:contrib}
+  \input{tables/contributions.tex}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.55\linewidth]{diversification.pdf}
+  \caption{Stand-alone VaR and contribution to the book VaR of each position.}
+  \label{fig:div}
+\end{figure}
+
+% =====================================================================================================================
+\section{Backtest}
+
+Each day from May 2023, the one-day VaR is estimated from the previous 125 days and compared with the realised loss
+of the book on the next day (132 days, \cref{fig:backtest}). The Kupiec test checks the number of exceptions
+\citep{Kupiec1995}, the Christoffersen test their independence \citep{Christoffersen1998}. All methods pass both at
+95\% and 99\% (\cref{tab:backtest}).
+
+\begin{table}[t]
+  \centering\small
+  \caption{Out-of-sample backtest of the one-day VaR (rolling window of 125 days, 132 test days).}
+  \label{tab:backtest}
+  \input{tables/backtest.tex}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.9\linewidth]{backtest.pdf}
+  \caption{Realised daily losses of the book (exceptions of the parametric 95\% VaR in orange) and the rolling VaR
+    forecasts.}
+  \label{fig:backtest}
+\end{figure}
+
+A passed backtest of this length is weak evidence. \Cref{tab:power} gives the probability that the Kupiec test
+rejects a model whose true exception rate is too high: a 95\% VaR that is exceeded on \SI{10}{\percent} of the days
+is caught in about half of the cases, a 99\% VaR exceeded on \SI{2}{\percent} of the days in one case out of eight.
+Regulatory backtests use 250 days or more for this reason, and at the 99\% level even a year leaves little power.
+
+\begin{table}[H]
+  \centering\small
+  \caption{Power of the Kupiec test with 132 backtest days (5\% significance).}
+  \label{tab:power}
+  \input{tables/power.tex}
+\end{table}
+
+% =====================================================================================================================
+\section{Main changes with respect to the course notebook}
+
+The notebook written for the exercise did not yet answer it. \Cref{tab:changes} lists the corrections.
+
+\begin{table}[H]
+  \centering\small
+  \caption{Main changes with respect to the original notebook.}
+  \label{tab:changes}
+  \begin{tabular}{p{0.2\linewidth}p{0.36\linewidth}p{0.34\linewidth}}
+    \toprule
+    & course notebook & this version \\
+    \midrule
+    Alignment & returns of silver and EUR/USD paired by row position, not by date (correlation $-0.13$) & series
+      aligned by date (correlation $+0.48$) \\
+    Correlated shocks & Cholesky factor applied to draws already scaled by mean and volatility, volatility applied
+      a second time when revaluing & Cholesky factor of the covariance applied to standard shocks \\
+    Risk measure & 95th percentile of each factor's return separately; one simulated day revalued & quantile and
+      tail mean of the loss of the position \\
+    Units & 500 multiplied by a price per troy ounce & 500\,t $=$ \num{16.1e6} troy ounces \\
+    Methods & Monte Carlo only & five methods, two levels, two horizons, ES \\
+    Validation & none & backtest with Kupiec and Christoffersen tests, power analysis; tests on synthetic data \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+% =====================================================================================================================
+\section{Conclusions}
+
+\begin{enumerate}
+  \item The one-day VaR(95\%) of 500\,t of silver held in a euro balance sheet was EUR 8.3\,m in November 2023,
+    \SI{2.5}{\percent} of its value. The positive correlation of silver with the euro is a natural hedge: without it
+    the VaR would be \SI{18}{\percent} higher.
+  \item For a book of silver and copper, the five methods give one-day 95\% VaRs between EUR 8.8 and 10.4\,m.
+    Model choice matters in the tail: for the ten-day 99\% ES the estimates range from EUR 41 to 59\,m, and the
+    methods that capture fat tails or changing volatility give the higher values.
+  \item Diversification between the two commodities lowers the VaR by \SI{27}{\percent}.
+  \item All methods pass the backtest, but half a year of backtest cannot tell good from mediocre models at the 99\%
+    level. With the public data script, the same analysis runs on any period, and a longer history is the first
+    improvement to make.
+\end{enumerate}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
