@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrr}
+\toprule
+method & level & expected & exceptions & Kupiec $p$ & Christoffersen $p$ \\
+\midrule
+parametric (delta-normal) & 95\% & 134.3 & 122 & 0.269 & 0.030 \\
+historical simulation & 95\% & 134.3 & 147 & 0.268 & 0.294 \\
+Monte Carlo, normal & 95\% & 134.3 & 127 & 0.514 & 0.053 \\
+filtered HS (EWMA) & 95\% & 134.3 & 135 & 0.951 & 0.932 \\
+parametric (delta-normal) & 99\% & 26.9 & 45 & 0.001 & 0.045 \\
+historical simulation & 99\% & 26.9 & 35 & 0.132 & 0.085 \\
+Monte Carlo, normal & 99\% & 26.9 & 48 & 0.000 & 0.064 \\
+filtered HS (EWMA) & 99\% & 26.9 & 33 & 0.250 & 0.067 \\
+\bottomrule
+\end{tabular}

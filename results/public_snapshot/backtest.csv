@@ -1,0 +1,9 @@
+method,alpha,days,expected,exceptions,kupiec_p,christoffersen_p
+parametric (delta-normal),0.9500,2686,134.3000,122,0.2690,0.0303
+historical simulation,0.9500,2686,134.3000,147,0.2678,0.2942
+"Monte Carlo, normal",0.9500,2686,134.3000,127,0.5144,0.0528
+filtered HS (EWMA),0.9500,2686,134.3000,135,0.9506,0.9319
+parametric (delta-normal),0.9900,2686,26.8600,45,0.0013,0.0448
+historical simulation,0.9900,2686,26.8600,35,0.1315,0.0851
+"Monte Carlo, normal",0.9900,2686,26.8600,48,0.0002,0.0642
+filtered HS (EWMA),0.9900,2686,26.8600,33,0.2503,0.0671

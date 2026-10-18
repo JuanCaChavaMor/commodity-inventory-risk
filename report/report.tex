@@ -34,8 +34,11 @@ normal and Student-$t$ shocks, and filtered historical simulation with EWMA vola
 (EUR 334\,m) is EUR 8.3\,m, i.e.\ \SI{2.5}{\percent} of its value; ignoring the correlation between silver and the
 dollar would overstate it by \SI{18}{\percent}, because the two act as a natural hedge in euros. For the two-commodity
 book the one-day estimates of the methods differ by at most \SI{18}{\percent} and differ most in the tail (99\% ES, ten
-days). All methods pass an out-of-sample backtest, but with half a year of backtest the tests have little power: a
-99\% model with twice the nominal exception rate is rejected only one time in eight.
+days). All methods pass an out-of-sample backtest on the course data, but half a year of backtest has little power: a
+99\% model with twice the nominal exception rate is rejected only one time in eight. On eleven years of public data
+(2016--2026) the backtest separates the methods: the VaRs with normal tails are exceeded almost twice as often as
+they should be at 99\%, and only historical and filtered historical simulation pass, the latter with the best
+coverage.
 \end{abstract}
 
 % =====================================================================================================================
@@ -109,7 +112,7 @@ vice versa: holding silver in a euro balance sheet is less risky than its dollar
 risk alone: EUR 9.29\,m).
 
 % =====================================================================================================================
-\section{The book: silver and copper}
+\section{The book: silver and copper}\label{sec:book}
 
 \Cref{tab:var} compares the methods. At the one-day horizon and 95\%, they differ by at most \SI{18}{\percent}
 (EUR 8.8--10.4\,m); the filtered historical simulation is lowest because volatility at the end of the sample was
@@ -187,6 +190,63 @@ Regulatory backtests use 250 days or more for this reason, and at the 99\% level
 \end{table}
 
 % =====================================================================================================================
+\section{Backtest on eleven years of public data}\label{sec:public}
+
+The course data cover one year. With \texttt{scripts/fetch\_data.py} the same book (the quantities of
+\cref{sec:book} held constant) was backtested on public data: the ECB reference rate and front-month COMEX futures
+for silver and copper (Yahoo Finance), 2 January 2015 to 16 October 2026. The VaR is estimated each day from the
+previous 250 days, giving 2686 test days from January 2016 on. The prices are not redistributed; the repository
+keeps the test statistics (\texttt{results/public\_snapshot}).
+
+Over this period the returns are far from normal: the excess kurtosis of the daily log returns is 36 for silver and
+27 for copper, and a multivariate Student-$t$ fit gives $\nu = 3.5$ degrees of freedom (8.2 on the course year). The
+largest moves are single days: silver fell by \SI{31}{\percent} on 30 January 2026, copper by \SI{22}{\percent} on
+31 July 2025, when the US exempted refined copper from its import tariff. Front-month futures also contain roll
+effects; both make the tails heavier than in a spot series.
+
+\begin{table}[t]
+  \centering\small
+  \caption{Out-of-sample backtest on public data (rolling window of 250 days, 2686 test days, 2016--2026).}
+  \label{tab:backtest_public}
+  \input{tables/backtest_public.tex}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{backtest_public.pdf}
+  \caption{Cumulative number of VaR exceptions minus the expected number, 2016--2026. A correct VaR wanders around
+    zero; a VaR that is too low drifts upwards; clustered exceptions appear as steps (March 2020, the copper and
+    silver crashes of 2025--26).}
+  \label{fig:backtest_public}
+\end{figure}
+
+Now the backtest separates the methods (\cref{tab:backtest_public,fig:backtest_public}):
+\begin{itemize}
+  \item \emph{Normal tails fail at 99\%.} The delta-normal and the normal Monte Carlo VaR are exceeded 45 and 48
+    times instead of 27, Kupiec $p = 0.001$ and $0.0002$. At 95\% their counts are right (122 and 127 against 134):
+    the normal distribution is adequate in the body of the distribution and wrong in the tail.
+  \item \emph{Constant volatility gives clustered exceptions.} At 95\% the delta-normal VaR has the right number of
+    exceptions, but they come in runs (Christoffersen $p = 0.03$): after March 2020 the 250-day volatility adapts too
+    slowly, and the exceptions of a whole month count against the model.
+  \item \emph{Historical simulation passes, with a lag.} It captures the empirical tail (35 exceptions at 99\%,
+    $p = 0.13$) but adapts as slowly as its window: at 95\% it collected its surplus of exceptions in March 2020
+    and again in early 2026.
+  \item \emph{Filtered HS fits best.} Empirical tails rescaled by the EWMA volatility give 135 exceptions at 95\%
+    (134 expected, $p = 0.95$) and 33 at 99\% ($p = 0.25$), with no sign of clustering at 95\%.
+\end{itemize}
+At 99\%, the independence test gives $p$ between 0.06 and 0.09 for all methods: some clustering remains, but about
+30 exceptions are too few to say more. With 2686 test days, the Kupiec test detects a 99\% VaR with twice the nominal
+exception rate in 99\% of the cases, against 13\% on the course data (\cref{tab:power_public}): the long backtest is
+the one to trust.
+
+\begin{table}[H]
+  \centering\small
+  \caption{Power of the Kupiec test (5\% significance): course backtest and public-data backtest.}
+  \label{tab:power_public}
+  \input{tables/power_public.tex}
+\end{table}
+
+% =====================================================================================================================
 \section{Main changes with respect to the course notebook}
 
 The notebook written for the exercise did not yet answer it. \Cref{tab:changes} lists the corrections.
@@ -207,7 +267,7 @@ The notebook written for the exercise did not yet answer it. \Cref{tab:changes} 
       tail mean of the loss of the position \\
     Units & 500 multiplied by a price per troy ounce & 500\,t $=$ \num{16.1e6} troy ounces \\
     Methods & Monte Carlo only & five methods, two levels, two horizons, ES \\
-    Validation & none & backtest with Kupiec and Christoffersen tests, power analysis; tests on synthetic data \\
+    Validation & none & backtest with Kupiec and Christoffersen tests, power analysis, on the course year and on eleven years of public data; tests on synthetic data \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -223,9 +283,10 @@ The notebook written for the exercise did not yet answer it. \Cref{tab:changes} 
     Model choice matters in the tail: for the ten-day 99\% ES the estimates range from EUR 41 to 59\,m, and the
     methods that capture fat tails or changing volatility give the higher values.
   \item Diversification between the two commodities lowers the VaR by \SI{27}{\percent}.
-  \item All methods pass the backtest, but half a year of backtest cannot tell good from mediocre models at the 99\%
-    level. With the public data script, the same analysis runs on any period, and a longer history is the first
-    improvement to make.
+  \item All methods pass the backtest on the course data, but half a year of backtest cannot tell good from mediocre
+    models at the 99\% level. On eleven years of public data it can: normal tails underestimate the 99\% VaR
+    (45--48 exceptions instead of 27), constant volatility produces clustered exceptions, and filtered historical
+    simulation is the method to use for this book.
 \end{enumerate}
 
 \bibliographystyle{plainnat}

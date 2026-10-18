@@ -15,6 +15,7 @@ HSBI, winter term 2024/25). Report: [`report/report.pdf`](report/report.pdf).
 | **Methods** | Parametric, historical simulation, Monte Carlo (normal and Student t) and filtered historical simulation (EWMA) give 1-day VaR(95 %) between EUR 8.8 m and 10.4 m for the silver + copper book; they differ most in the tail (10-day ES(99 %): EUR 41-59 m). |
 | **Diversification** | Silver and copper together: VaR 27 % below the sum of the stand-alone VaRs (Euler allocation in `results/contributions.csv`). |
 | **Backtest** | All methods pass Kupiec and Christoffersen on 132 out-of-sample days. But with so few days, a 99 % model that fails twice as often as it should is rejected only 13 % of the time: a passed backtest is weak evidence. |
+| **Backtest, 2016-2026** | On public data (2686 days), the backtest separates the methods: normal tails underestimate the 99 % VaR (45-48 exceptions instead of 27, Kupiec p ≤ 0.001), constant volatility gives clustered exceptions, and filtered historical simulation fits best (135 / 134 at 95 %, 33 / 27 at 99 %). Statistics in `results/public_snapshot/`. |
 
 ![loss distribution](figures/loss_distribution.png)
 
@@ -44,6 +45,7 @@ pip install yfinance
 python scripts/fetch_data.py --start 2015-01-01          # -> data/prices.csv  (--source stooq --stooq-key KEY also works)
 python scripts/run_var.py data/prices.csv
 python scripts/run_backtest.py data/prices.csv --window 250   # outputs go to results/public/
+python scripts/snapshot_public.py                          # statistics only -> results/public_snapshot/, figure
 
 # or the course data: put MC_Simulation.xlsx and "Historische Simulation - Kupfer USD.xlsx" in data/raw/
 python scripts/run_var.py && python scripts/run_backtest.py && python scripts/make_figures.py

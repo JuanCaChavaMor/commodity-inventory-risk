@@ -50,3 +50,19 @@ rows = [f"{k} & {r.value_EUR / M:.0f} & {r.stand_alone_VaR / M:.2f} & {r.contrib
 rows.append(f"\\midrule book & {c.value_EUR.sum() / M:.0f} & {c.stand_alone_VaR.sum() / M:.2f} & "
             f"{c.contribution.sum() / M:.2f} \\\\")
 write("contributions", tab("lrrr", r"position & value [EUR m] & stand-alone VaR & contribution", rows))
+
+# backtest on public data (snapshot written by scripts/snapshot_public.py)
+SNAP = RES / "public_snapshot"
+if (SNAP / "backtest.csv").exists():
+    b = pd.read_csv(SNAP / "backtest.csv")
+    rows = [f"{r.method} & {int(100 * r.alpha)}\\% & {r.expected:.1f} & {r.exceptions} & {r.kupiec_p:.3f} & "
+            f"{r.christoffersen_p:.3f} \\\\" for r in b.itertuples()]
+    write("backtest_public", tab("lrrrrr", "method & level & expected & exceptions & Kupiec $p$ & "
+                                 "Christoffersen $p$", rows))
+    pw = pd.read_csv(SNAP / "backtest_power.csv")
+    n = int(b.days.iloc[0])
+    old = pd.read_csv(RES / "backtest_power.csv")
+    n_old = int(pd.read_csv(RES / "backtest.csv").days.iloc[0])
+    rows = [f"{int(100 * r.alpha)}\\% & {100 * r.true_rate:.1f}\\% & {100 * o.power:.0f}\\% & {100 * r.power:.0f}\\% \\\\"
+            for r, o in zip(pw.itertuples(), old.itertuples())]
+    write("power_public", tab("rrrr", f"VaR level & true exception rate & {n_old} days & {n} days", rows))
