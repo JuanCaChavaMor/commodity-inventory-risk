@@ -39,16 +39,17 @@ tests/            pytest on synthetic data
 pip install -r requirements.txt
 pytest -q
 
-# public data (ECB reference rate, stooq for silver and copper), any period:
-python scripts/fetch_data.py --start 2015-01-01          # -> data/prices.csv
+# public data (ECB reference rate; COMEX silver and copper futures from Yahoo Finance), any period:
+pip install yfinance
+python scripts/fetch_data.py --start 2015-01-01          # -> data/prices.csv  (--source stooq --stooq-key KEY also works)
 python scripts/run_var.py data/prices.csv
-python scripts/run_backtest.py data/prices.csv --window 250
+python scripts/run_backtest.py data/prices.csv --window 250   # outputs go to results/public/
 
 # or the course data: put MC_Simulation.xlsx and "Historische Simulation - Kupfer USD.xlsx" in data/raw/
 python scripts/run_var.py && python scripts/run_backtest.py && python scripts/make_figures.py
 cd report && make
 ```
 
-The course data (finanzen.net exports) are not included. `fetch_data.py` uses the documented CSV endpoints of the
-ECB data portal and stooq; it was written for this repository but could not be run in the environment where the
-results were produced (no internet access there).
+The course data (finanzen.net exports) are not included. `fetch_data.py` uses the CSV endpoint of the ECB data
+portal and Yahoo Finance (or stooq, whose downloads now require an API key). Note that Yahoo gives front-month
+futures prices (SI=F, HG=F), not the spot prices of the course data.

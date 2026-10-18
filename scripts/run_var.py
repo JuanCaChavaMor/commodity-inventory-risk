@@ -21,8 +21,8 @@ from invrisk.portfolio import Inventory
 P = load_csv(sys.argv[1]) if len(sys.argv) > 1 else load_course_data()
 R = log_returns(P)
 now = P.iloc[-1]
-out = ROOT / "results"
-out.mkdir(exist_ok=True)
+out = ROOT / "results" / ("public" if len(sys.argv) > 1 else "")   # public data never overwrite the course results
+out.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- 1. the course exercise
 silver = Inventory({"silver": Inventory.course_case().quantities["silver"]})

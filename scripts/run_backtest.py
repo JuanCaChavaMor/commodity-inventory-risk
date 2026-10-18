@@ -16,6 +16,8 @@ ap = argparse.ArgumentParser()
 ap.add_argument("csv", nargs="?")
 ap.add_argument("--window", type=int, default=125)
 a = ap.parse_args()
+OUT = ROOT / "results" / ("public" if a.csv else "")   # public data never overwrite the course results
+OUT.mkdir(parents=True, exist_ok=True)
 P = load_csv(a.csv) if a.csv else load_course_data()
 inv = Inventory.course_case()
 rows, series = [], {}
@@ -34,8 +36,8 @@ out = pd.DataFrame(rows)
 n = int(out.days.iloc[0])
 power = pd.DataFrame([dict(alpha=al, true_rate=k * (1 - al), power=bt.kupiec_power(n, al, k * (1 - al)))
                       for al in (0.95, 0.99) for k in (1.5, 2, 3)])
-power.to_csv(ROOT / "results" / "backtest_power.csv", index=False, float_format="%.3f")
+power.to_csv(OUT / "backtest_power.csv", index=False, float_format="%.3f")
 print(power.round(3).to_string(index=False))
-out.to_csv(ROOT / "results" / "backtest.csv", index=False, float_format="%.4f")
-pd.concat({f"{k[0]}|{k[1]}": v for k, v in series.items()}).to_csv(ROOT / "results" / "backtest_series.csv",
+out.to_csv(OUT / "backtest.csv", index=False, float_format="%.4f")
+pd.concat({f"{k[0]}|{k[1]}": v for k, v in series.items()}).to_csv(OUT / "backtest_series.csv",
                                                                      float_format="%.0f")
